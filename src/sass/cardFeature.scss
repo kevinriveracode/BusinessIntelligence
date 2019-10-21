@@ -1,0 +1,21 @@
+$height-Header : '110px';
+$background-Header : '#ffffff';
+$color-links : '#2f2c2c';
+$font-family :  'Varela Round';
+$padding: 1rem 5.5rem;
+$size-title: '1.5rem';
+
+.Card-Feature{
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 1px solid #f1f2f3;
+  li,h2,p{
+    font-family: $font-family;
+    list-style: none;
+  }
+}
