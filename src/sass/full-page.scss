@@ -1,0 +1,37 @@
+$height-Header : '110px';
+$background-Header : '#ffffff';
+$color-links : '#2f2c2c';
+$font-family :  'Varela Round';
+$padding: 1rem 5.5rem;
+$size-title: '1.5rem';
+
+.FullPage{
+  background-color: #008dde;
+  height: 75vh;
+  display: flex;
+  padding: 1rem 5.5rem;
+  .target-info{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding-top: 10vh;
+    h1{
+      font-family: $font-family;
+      font-size: 3.5em;
+      color: white;
+      margin: 0;
+    }
+    h3{
+      font-weight: lighter;
+      color: #cecece;
+    }
+  }
+  .target-image{
+    display: flex;
+    align-items: center;
+    width: 30rem;
+    img{
+      width: 100%;
+    }
+  }
+}
