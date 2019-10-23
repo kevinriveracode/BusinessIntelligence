@@ -4,7 +4,7 @@ import '../sass/ficha-app.scss'
 class FichaApp extends Component {
   render() {
     return (
-        <section className="Ficha app">
+        <section className="Ficha-app">
           <div className="ficha-image">
             <img src="/app.png" alt=""/>
           </div>
