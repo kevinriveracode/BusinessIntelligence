@@ -1,0 +1,48 @@
+$height-Header: '110px';
+$background-Header: '#ffffff';
+$color-links: '#2f2c2c';
+$font-family: 'Varela Round';
+$padding: 2rem 5.5rem;
+$size-title: '1.5rem';
+
+.Why {
+  padding: $padding;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
+  .why-container-image{
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 100%;
+    }
+  }
+  .why-container-text {
+    width: 40vw;
+
+    h1 {
+      font-size: 2.5rem;
+      color: #008dde;
+      margin-bottom: 0px;
+      font-family: 'Varela Round';
+      text-align: center;
+    }
+    h3{
+      font-size: 1.3rem;
+      color: #404040;
+      margin-bottom: 0px;
+      font-family: 'Varela Round';
+      text-align: center;
+    }
+    p{
+      font-size: 0.9rem;
+      color: #999999;
+      text-align: center;
+      margin-bottom: 0px;
+      font-family: 'Varela Round';
+    }
+  }
+}

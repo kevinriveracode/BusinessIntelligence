@@ -1,0 +1,35 @@
+.Ficha{
+  padding: 2rem 5.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  border-top: #797979;
+  .ficha-image{
+    img{
+      width: 40em;
+    }
+  }
+  .ficha-description{
+    h1{
+      font-weight: 400;
+      font-size: 3em;
+      color:#404040;
+      margin-top: 0;
+      span{
+        color: #008dde;
+        font-weight: 500;
+      }
+    }
+    p{
+      line-height: 1.6em;
+      font-size: 1.1rem;
+      color:#777777;
+    }
+  }
+}
+.app{
+  background-color: white !important;
+}
