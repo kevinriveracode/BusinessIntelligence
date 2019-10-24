@@ -1,0 +1,29 @@
+$height-Header : '110px';
+$background-Header : '#ffffff';
+$color-links : '#2f2c2c';
+$font-family :  'Varela Round';
+$padding: 1rem 5.5rem;
+$size-title: '1.5rem';
+
+.Banner{
+  display: flex;
+  padding: 2rem 5.5rem;
+  background-color: #041C72;
+  height: 10rem;
+  align-items: center;
+  justify-content:space-around;
+  div{
+
+    h2{
+      font-size: 2em;
+      margin-bottom: 0px;
+      font-family: $font-family;
+      color:white;
+      font-weight: bold;
+    }
+    p{
+      font-family: $font-family;
+      color: white;
+    }
+  }
+}

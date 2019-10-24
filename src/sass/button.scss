@@ -1,6 +1,11 @@
 .Button{
   background-color: #008dde;
   color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
   border-radius: 10em !important;
   text-align: center;
   border:1px solid #008dde;
@@ -9,7 +14,10 @@
   font-weight: 600;
   &:hover{
     background-color: #F7F7F7;
-    color:#404040 ;
+    color:#008dde ;
     transition: 0.1s;
   }
+}
+.btn-one{
+  background-color: #041C72 !important;
 }

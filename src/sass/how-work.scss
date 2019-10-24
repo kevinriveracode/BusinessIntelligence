@@ -5,6 +5,7 @@ $font-family :  'Varela Round';
 $padding: 2rem 5.5rem;
 $size-title: '1.5rem';
 .HowWork{
+  background-color: #F7F7F7;
   padding: $padding;
   display: flex;
   flex-direction: column;
@@ -17,8 +18,19 @@ $size-title: '1.5rem';
     justify-content: space-between;
     padding: 2em 0;
     .feature-item{
+      background-color: white;
       width: 15rem;
       text-align: center;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+      border-top-left-radius: 1px;
+      border-top-right-radius: 1px;
+      border-bottom-left-radius: 1px;
+      border-bottom-right-radius: 1px;
+      border-radius: 4px 4px 4px 4px;
+      -moz-border-radius: 4px 4px 4px 4px;
+      -webkit-border-radius: 4px 4px 4px 4px;
+      border: 1px solid #041c72;
+      padding: 3vh 1vw;
       h3{
         font-family: $font-family;
         color: #404040;

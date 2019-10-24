@@ -1,9 +1,22 @@
 import React , {Component} from 'react'
 import '../sass/header.scss';
+import ButtonBI from '../components/button';
 class Header extends Component {
+  stickyMenu = () => {
+    let header = document.getElementById('HeaderNav');
+    let sticky = header.offsetTop;
+    if (window.pageYOffset > sticky) {
+      header.classList.add('HeaderPosition');
+    } else {
+      header.classList.remove('HeaderPosition');
+    }
+  };
   render() {
+    window.onscroll = () => {
+      this.stickyMenu();
+    };
     return (
-        <header className="Header">
+        <header id="HeaderNav" className="Header">
           <div className="container-logo">
             <p className="reference-logo">
               <h1 className="title">Business Intelligence</h1>
@@ -22,7 +35,7 @@ class Header extends Component {
           </div>
           <div className="app-menu">
             <nav>
-              {/*Aqui se pondra el acceso a backoffice, al checkout de compra*/}
+              <ButtonBI/>
             </nav>
           </div>
         </header>

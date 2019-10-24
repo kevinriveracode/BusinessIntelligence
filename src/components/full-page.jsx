@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import '../sass/full-page.scss';
+import ButtonBI from './button';
 
 class FullPage extends Component {
   render() {
     return (
         <section className="FullPage">
           <div className="target-info">
-            <h1>Agencia de Transformación Digital</h1>
-            <h3>Diseñamos y desarrollamos soluciones digitales para empresas líderes.<br/>
-            Nos enfocamos en ayudar a nuestros clientes a lograr una transformación digital exitosa de su negocio a través de productos y experiencias
-            digitales innovadoras y de alto impacto. </h3>
+            <h2>Diseño web y marketing online</h2>
+            <h1>Tu lo imaginas, nosotros lo creamos</h1>
+            <ButtonBI/>
           </div>
           <div className="target-image">
             <img src="/fullpage.png" alt=""/>

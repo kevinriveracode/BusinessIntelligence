@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
 import '../sass/how-work.scss';
+import ButtonBI from './button';
 class Feature extends Component {
   render() {
     return (
       <div className="feature-item">
-        <img src={this.props.image} alt=""/>
         <h3>{this.props.nameFeature}</h3>
+        <img src={this.props.image} alt=""/>
+
         <hr className={`bg-${this.props.color}`}/>
         <p>{this.props.descriptionFeature}</p>
+        <ButtonBI/>
       </div>
     );
   }
