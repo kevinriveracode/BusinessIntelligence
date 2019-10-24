@@ -9,6 +9,7 @@ class Ficha extends Component {
             <h1>
               <span>Desarrollo web </span>a medida
             </h1>
+            <hr className="hr-site"/>
             <p>
               Si tu negocio precisa de algún tipo de software para facilitarte el trabajo y el de tus empleados, gestionar de forma cómoda y sencilla cualquier ámbito de tu empresa, mejorar la calidad de la relación con tus clientes, o simplemente darte a conocer.
               Nosotros podemos ayudarte, tenemos una solución adaptada a tus necesidades. <br/>
