@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import '../sass/full-page.scss';
 import ButtonBI from './button';
+import AppCalculatePrice from './CalculaWeb';
+
+
 
 class FullPage extends Component {
   render() {
@@ -12,7 +15,7 @@ class FullPage extends Component {
             <ButtonBI/>
           </div>
           <div className="target-image">
-            <img src="/fullpage.png" alt=""/>
+            <AppCalculatePrice/>
           </div>
         </section>
     );
