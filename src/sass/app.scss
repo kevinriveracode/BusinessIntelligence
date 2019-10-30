@@ -4,10 +4,23 @@ $color-links : '#2f2c2c';
 $font-family :  'Varela Round';
 $padding: 1rem 5.5rem;
 $size-title: '1.5rem';
-
+.finalPrice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    margin:0;
+    font-size: 2em;
+  }
+  h3{
+    color:#008dde;
+    font-size: 2.4em;
+    font-weight: 300;
+  }
+}
 .AppCalculate{
   width: 600px;
-  height: 400px;
+  height: 300px;
   background-color: rgba(255,255,255,0.9);
   display: flex;
   justify-content: center;
@@ -22,13 +35,35 @@ $size-title: '1.5rem';
       font-family: $font-family;
       font-size: 1.5em;
       color:#3d3935;
+      margin-top: -1em;      
     }
     div{
       display: flex;
-      justify-content: space-between;
-      button{
+      justify-content: center;      
+      a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         width: 8vw;
         height: 15vh;
+        div{
+          &:hover{
+            border-bottom: 3px solid #64E4CF;
+          }
+          flex-direction: column;
+          img{
+            display: flex !important;
+            margin-top: 2rem;
+          }
+          p{
+            font-size: 0.8em;
+            font-weight: 400;
+            margin-top: 0;
+          }
+        }
+       
       }
     }
   }

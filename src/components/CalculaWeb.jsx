@@ -25,25 +25,39 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿En qué estado se encuentra tu web?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionNine: 'idea'}});
-              this.controller_step();
-            }}>Solamente es una idea</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionNine: 'boceto'}});
-              this.controller_step();
-            }}>Boceto preparado</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionNine: 'desarrollo'}});
-              this.controller_step();
-            }}>Web en desarrollo</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionNine: 'produccion'}});
-              this.controller_step();
-            }}>Web lanzada</button>
+          <a onClick={() => {
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/10paso1.png" alt=""/>
+                <p>Solamente es una idea</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/10paso2.png" alt=""/>
+                <p>Boceto preparado</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/10paso3.png" alt=""/>
+                <p>Web en desarrollo</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/10paso4.png" alt=""/>
+                <p>Web lanzada</p>
+              </div>
+              </a>
+             
           </div>
         </div>
     )
@@ -53,20 +67,33 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿Tu web necesita servicios de SEO?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionNine: 'si'}});
-              this.controller_step();
-            }}>Si</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionNine: 'no'}});
-              this.controller_step();
-            }}>No</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionNine: 'nose'}});
-              this.controller_step();
-            }}>No lo sé</button>
+          <a onClick={() => {
+                  this.setState({answerQuestions:{questionNine: 1}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/9paso1.png" alt=""/>
+                <p>Si</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionNine: 2}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/9paso2.png" alt=""/>
+                <p>No</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionNine: 3}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/9paso3.png" alt=""/>
+                <p>No lo sé</p>
+              </div>
+              </a>
           </div>
         </div>
     )
@@ -76,20 +103,33 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿La Web necesita un directorio/buscador interno?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionEight: 'si'}});
-              this.controller_step();
-            }}>Si</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionEight: 'no'}});
-              this.controller_step();
-            }}>No</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionEight: 'nose'}});
-              this.controller_step();
-            }}>No lo sé</button>
+          <a onClick={() => {
+                  this.setState({answerQuestions:{questionEight: 1}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/8paso1.png" alt=""/>
+                <p>Si</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionEight: 2}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/8paso2.png" alt=""/>
+                <p>No</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionEight: 3}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/8paso3.png" alt=""/>
+                <p>No lo sé</p>
+              </div>
+              </a>
           </div>
         </div>
     )
@@ -99,20 +139,33 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿Va a ser una web multidioma?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionSeven: 'si'}});
-              this.controller_step();
-            }}>Si</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionSeven: 'no'}});
-              this.controller_step();
-            }}>No</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionSeven: 'nose'}});
-              this.controller_step();
-            }}>No lo sé</button>
+          <a onClick={() => {
+                  this.setState({answerQuestions:{questionSeven: 1}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/7paso1.png" alt=""/>
+                <p>Si</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionSeven: 2}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/7paso3.png" alt=""/>
+                <p>No</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionSeven: 3}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/7paso2.png" alt=""/>
+                <p>No lo sé</p>
+              </div>
+              </a>
           </div>
         </div>
     )
@@ -122,20 +175,34 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿Tu Web necesita login o registro de usuarios?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionSix: 1}});
-              this.controller_step();
-            }}>Si</button>
+          <a onClick={() => {
+                  this.setState({answerQuestions:{questionSix: 1}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/6paso1.png" alt=""/>
+                <p>Si</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionSix: 2}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/6paso2.png" alt=""/>
+                <p>No</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionSix: 3}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/6paso3.png" alt=""/>
+                <p>No lo sé</p>
+              </div>
+              </a>
 
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionSix: 2}});
-              this.controller_step();
-            }}>No</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionSix: 3}});
-              this.controller_step();
-            }}>No lo sé</button>
 
           </div>
         </div>
@@ -146,20 +213,33 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿La Web estará integrada con otra Web, App o ERP?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionFive: 1}});
-              this.controller_step();
-            }}>Si</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionFive: 2}});
-              this.controller_step();
-            }}>No</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{ questionFive: 3}});
-              this.controller_step();
-            }}>No lo sé</button>
+          <a onClick={() => {
+                  this.setState({answerQuestions:{questionFive: 1}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/5paso1.png" alt=""/>
+                <p>Si</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionFive: 2}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/5paso2.png" alt=""/>
+                <p>No</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionFive: 3}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/5paso3.png" alt=""/>
+                <p>No lo sé</p>
+              </div>
+              </a>
 
           </div>
         </div>
@@ -170,20 +250,34 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿En tu web se van a realizar pagos?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionFour: 1}});
-              this.controller_step();
-            }}>Si</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionFour: 2}});
-              this.controller_step();
-            }}>No</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionFour: 3}});
-              this.controller_step();
-            }}>No lo sé</button>
+          <a onClick={() => {
+                  this.setState({answerQuestions:{questionFour: 1}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/4paso1.png" alt=""/>
+                <p>Si</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionFour: 2}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/4paso2.png" alt=""/>
+                <p>No</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionFour: 3}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/4paso3.png" alt=""/>
+                <p>No lo sé</p>
+              </div>
+              </a>
+            
           </div>
         </div>
     )
@@ -193,25 +287,42 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿Cómo de grande necesitas que sea la web?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionThree:1}});
-              this.controller_step();
-            }}>Pequeña: menos de 3 páginas/50 productos</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionThree: 2}});
-              this.controller_step();
-            }}>Mediana: menos de 10 páginas/200 productos</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionThree: 3}});
-              this.controller_step();
-            }}>Grande: más de 10 páginas/200 productos</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionThree: 4}});
-              this.controller_step();
-            }}>No lo sé</button>
+          <a onClick={() => {
+                  this.setState({answerQuestions:{questionThree: 1}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/3paso1.png" alt=""/>
+                <p>Pequeña: menos de 3 páginas/50 productos</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionThree: 2}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/3paso2.png" alt=""/>
+                <p>Mediana: menos de 10 páginas/200 productos</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionThree: 3}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/3paso3.png" alt=""/>
+                <p>Grande: más de 10 páginas/200 productos</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionThree: 4}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/3paso4.png" alt=""/>
+                <p>No lo sé</p>
+              </div>
+              </a>
           </div>
         </div>
     )
@@ -221,25 +332,45 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿Qué diseño quieres que tenga tu Web?</h1>
           <div>
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionTwo: 1}});
-              this.controller_step();
-            }}>Usar una plantilla</button>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionTwo: 1}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/2paso1.png" alt=""/>
+                <p>Usar una plantilla</p>
+              </div>
+              </a>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionTwo: 2}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/2paso2.png" alt=""/>
+                <p>Diseño a medida</p>
+              </div>
+              </a>
 
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionTwo:2}});
-              this.controller_step();
-            }}>Diseño a medida</button>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionTwo: 3}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/2paso3.png" alt=""/>
+                <p>No necesito diseño</p>
+              </div>
+              </a>
+           
 
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionTwo:3}});
-              this.controller_step();
-            }}>No necesito diseño</button>
-
-            <button onClick={() => {
-              this.setState({answerQuestions:{questionTwo: 4}});
-              this.controller_step();
-            }}>No lo sé</button>
+              <a onClick={() => {
+                  this.setState({answerQuestions:{questionTwo: 4}});
+                  this.controller_step();
+                }}>
+              <div>
+                <img src="/appCalculadoraWeb/2paso4.png" alt=""/>
+                <p>No lo sé</p>
+              </div>
+              </a>
           </div>
         </div>
     )
@@ -249,22 +380,47 @@ class AppCalculatePrice extends  Component{
         <div className="options">
           <h1>¿Qué tipo de web estás buscando?</h1>
           <div>
-            <button onClick={() => {
+            <a onClick={() => {
               this.setState({answerQuestions:{questionOne: 1}});
               this.controller_step();
-            }}>E-commerce / Tienda Online</button>
-            <button onClick={() => {
+            }}>
+              <div>
+                <img src="/appCalculadoraWeb/paso1.png" alt=""/>
+                <p>E-commerce / Tienda Online</p>
+              </div>
+              </a>
+
+            <a onClick={() => {
               this.setState({answerQuestions:{questionOne: 2}});
               this.controller_step();
-            }}>Web con blog</button>
-            <button onClick={() => {
+            }}>
+            <div>
+              <img src="/appCalculadoraWeb/paso2.png" alt=""/>
+              <p>Web con blog</p>
+            </div>
+            </a>
+
+            <a onClick={() => {
               this.setState({answerQuestions:{questionOne: 3}});
               this.controller_step();
-            }}>Web para empresa/corporativa</button>
-            <button onClick={() => {
+            }}>
+              <div>
+                <img src="/appCalculadoraWeb/paso3.png" alt=""/>
+                <p>Web para empresa</p>
+              </div>
+              </a>
+
+              <a onClick={() => {
               this.setState({answerQuestions:{questionOne: 4}});
               this.controller_step();
-            }}>Web a medida</button>
+            }}>
+              <div>
+                <img src="/appCalculadoraWeb/paso4.png" alt=""/>
+                <p>Web a medida</p>
+              </div>
+              </a>
+
+            
           </div>
         </div>
     )
@@ -329,11 +485,16 @@ class AppCalculatePrice extends  Component{
   presupuestoFinal = () => {
     let total = this.calculate()
     return(
-        <div>
-          <h1>El coste estimado de tu web es</h1>
+        <div className="finalPrice">
+          <h1>El coste estimado de tu web es:</h1>
           <h3>{total}€</h3>
+          <a onClick={this.reset}>Volver a empezar</a>
         </div>
     )
+  }
+  reset=()=>{
+    this.setState({step:1,count:0});
+    
   }
   controller = () => {
     let step = this.state.step;
