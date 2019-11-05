@@ -10,6 +10,12 @@ $size-title: '1.5rem';
 .ServiceTechnology{
   display: flex;
   padding: $padding;
+  .image{
+
+    img{
+      width:100%;
+    }
+  }
   .text{
     span{
       margin-bottom: 0;

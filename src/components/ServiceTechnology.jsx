@@ -2,8 +2,8 @@ import React , {Component} from 'react';
 import '../sass/ServiceTechnology.scss';
 import $ from 'jquery';
 class ServiceTechnology extends Component{
-  constructor(props){
-    super(props);
+  constructor(...props){
+    super(...props);
     this.state = {
       extraClass:''
     }
@@ -11,22 +11,17 @@ class ServiceTechnology extends Component{
   render(){
 
     return(
-        <section className={`ServiceTechnology  ${this.props.data}`}>
+        <section className={`ServiceTechnology  ${this.props.view}`}>
           <div className="image"></div>
           <div className="text">
             <span>E-commerce</span>
-            <h2>Prestashop</h2>
+            <h2>{this.props.name}</h2>
             <p>
-              Vender online con PrestaShop significa ofrecer a los comerciantes la posibilidad de superarse y aprovechar las fantásticas oportunidades que brinda internet. <br/>
-              Una solución sencilla, eficaz, potente y de alcance internacional, creada para hacer que tu producto, tu idea, tu proyecto, tu tienda o tu startup, se convierta
-              en un todo un éxito del e-commerce en las regiones del mundo que tú quieras.
+              {this.props.description}
             </p>
             <h5>Caracteristicas de PrestaShop</h5>
             <ul>
-              <li>Plantillas personalizables</li>
-              <li>BackOffice</li>
-              <li>Pago Online</li>
-              <li>Expansión internacional</li>
+
             </ul>
           </div>
         </section>
