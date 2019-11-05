@@ -28,7 +28,7 @@ class Header extends Component {
             <nav>
               <li><Link to="/" >Inicio</Link></li>
               <li><Link to="/service/ecommerce">Servicios</Link></li>
-              <li>Portafolio</li>
+              <li><Link to="/service/web">Diseño web</Link></li>
               <li>Nosotros</li>
               <li>Blog</li>
               <li>Contacto</li>

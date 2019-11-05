@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Home from './views/home';
 import TiendaOnline from './views/TiendaOnline';
+import DiseñoWeb from './views/DiseñoWeb';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Switch>
         <Route path='/' exact component={Home}/>
         <Route path='/service/ecommerce' exact component={TiendaOnline} />
+        <Route path='/service/web' exact component={DiseñoWeb} />
       </Switch>
     </BrowserRouter>,
     document.getElementById('root'));
