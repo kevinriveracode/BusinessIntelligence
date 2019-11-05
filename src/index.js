@@ -5,9 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Home from './views/home';
 import TiendaOnline from './views/TiendaOnline';
-//<Home/>
-//<TiendaOnline/>
-ReactDOM.render(<TiendaOnline/>, document.getElementById('root'));
+import { Router, Route, browserHistory } from 'react-router';
+
+ReactDOM.render(
+    <Home/>,
+    document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
