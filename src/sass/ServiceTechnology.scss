@@ -1,0 +1,42 @@
+$height-Header: '110px';
+$background-Header: '#ffffff';
+$color-links: '#2f2c2c';
+$font-family: 'Varela Round';
+$padding: 2rem 5.5rem;
+$size-title: '1.5rem';
+.revert{
+  flex-direction: row-reverse;
+}
+.ServiceTechnology{
+  display: flex;
+  padding: $padding;
+  .text{
+    span{
+      margin-bottom: 0;
+      color: #3B3B3B;
+    }
+    h2{
+      font-size: 3em;
+      font-family: $font-family;
+      font-weight: 400;
+      color: #008dde;
+      margin:0;
+    }
+    h5{
+      color: #3B3B3B;
+      font-size: 1.1em;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+    ul{
+      margin-top: 0;
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0px;
+      li{
+        font-size: 0.9em;
+      }
+    }
+    width: 50%;
+  }
+}

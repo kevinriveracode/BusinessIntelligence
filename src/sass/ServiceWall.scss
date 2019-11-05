@@ -1,0 +1,55 @@
+$height-Header: '110px';
+$background-Header: '#ffffff';
+$color-links: '#2f2c2c';
+$font-family: 'Varela Round';
+$padding: 2rem 5.5rem;
+$size-title: '1.5rem';
+
+.ServiceWall{
+  min-height: 85vh;
+  display: flex;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  justify-content: center;
+  align-items: center;
+  .image{
+    width: 30%;
+    img{
+      width: 20rem;
+    }
+  }
+  .description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    h1{
+      color: #ffffff;
+      font-family: $font-family;
+      text-align: left;
+      width: 70%;
+      font-size: 1.2em;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    h4{
+      margin-bottom: 0;
+      color: #f1f2f3;
+      font-family: $font-family;
+      font-size: 3.5em;
+      text-align: left;
+      width: 70%;
+    }
+    ul{
+      margin-top: 10px;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      li{
+        font-weight: 300;
+        color: white;
+      }
+    }
+  }
+}

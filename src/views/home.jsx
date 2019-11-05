@@ -11,6 +11,7 @@ import FichaTienda from '../components/ficha-tienda';
 import Tools from '../components/tools';
 import Opiniones from  '../components/opiniones';
 import Banner from '../components/banner';
+import ChatBot from '../components/chat';
 class Home extends Component {
   render() {
     return (
@@ -26,6 +27,7 @@ class Home extends Component {
           <Tools/>
           <Opiniones/>
           <Footer/>
+          <ChatBot/>
         </section>
     );
   }

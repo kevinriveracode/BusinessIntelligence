@@ -1,0 +1,57 @@
+$height-Header: '110px';
+$background-Header: '#ffffff';
+$color-links: '#2f2c2c';
+$font-family: 'Varela Round';
+$padding: 2rem 5.5rem;
+$size-title: '1.5rem';
+
+.ServiceHowHave{
+  padding: $padding;
+  div{
+    display: flex;
+    flex-direction: column;
+    padding: 3vh 0vw;
+    .title-section{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      span{
+        color:#008dde;
+        font-family: $font-family;
+      }
+      h2{
+        color:#3B3B3B;
+        font-family: $font-family;
+      }
+    }
+    .content-section{
+      padding-top: 5vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      div{
+        margin-top: 2vh;
+        padding: 1em 0.3em;
+        display: flex;
+        border-radius: 4px;
+        flex-direction: column;
+        align-items: center;
+        width: 19vw;
+        h3{
+          margin-bottom: 0px;
+          font-weight: 400;
+          color:#008dde;
+        }
+        p{
+          font-weight: 200;
+          margin-top: 3px;
+        }
+        h3 , p{
+          line-height: 18px;
+          font-family: $font-family;
+        }
+      }
+    }
+  }
+}
