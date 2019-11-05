@@ -1,6 +1,7 @@
 import React , {Component} from 'react'
 import '../sass/header.scss';
 import ButtonBI from '../components/button';
+import { Link } from 'react-router-dom';
 class Header extends Component {
   stickyMenu = () => {
     let header = document.getElementById('HeaderNav');
@@ -25,8 +26,8 @@ class Header extends Component {
           </div>
           <div className="primary-menu">
             <nav>
-              <li>Inicio</li>
-              <li>Servicios</li>
+              <li><Link to="/" >Inicio</Link></li>
+              <li><Link to="/service/ecommerce">Servicios</Link></li>
               <li>Portafolio</li>
               <li>Nosotros</li>
               <li>Blog</li>

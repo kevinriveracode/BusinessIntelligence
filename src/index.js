@@ -5,10 +5,15 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Home from './views/home';
 import TiendaOnline from './views/TiendaOnline';
-import { Router, Route, browserHistory } from 'react-router';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
-    <Home/>,
+    <BrowserRouter>
+      <Switch>
+        <Route path='/' exact component={Home}/>
+        <Route path='/service/ecommerce' exact component={TiendaOnline} />
+      </Switch>
+    </BrowserRouter>,
     document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
