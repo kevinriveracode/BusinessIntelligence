@@ -21,6 +21,7 @@ class DiseñoWeb extends Component{
             <section>
                 <Header/>
                 <ServiceWall category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red, así como un servicio eficaz de posicionamiento para destacar sobre tu competencia. La página web es tu escaparate al mundo. Confía en los mejores." features={[]} />
+                <ChatBot/>
                 <Footer/>
             </section>
         )
