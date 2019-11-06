@@ -2,13 +2,14 @@ $height-Header : '110px';
 $background-Header : '#ffffff';
 $color-links : '#2f2c2c';
 $font-family :  'Varela Round';
-$padding: 1rem 5.5rem;
+$padding: 1rem 0rem;
 $size-title: '1.5rem';
 
 .Header{
   display: flex;
   height: $height-Header;
-  justify-content: space-between;
+  width: 99vw;
+  justify-content: space-around;
   padding: $padding;
   position: absolute;
   transition: 1s ease;
@@ -45,7 +46,7 @@ $size-title: '1.5rem';
       list-style: none;
       color:white;
       li{
-        color:$color-links;
+
         a{
           font-family: $font-family;
           padding: 0vh 1rem;
