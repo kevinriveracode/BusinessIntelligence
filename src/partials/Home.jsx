@@ -1,7 +1,8 @@
 import React , {Component} from 'react'
 import '../sass/header.scss';
 import ButtonBI from '../components/button';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+  import Menu from '../components/menu/menu';
 class Header extends Component {
   stickyMenu = () => {
     let header = document.getElementById('HeaderNav');
@@ -39,6 +40,7 @@ class Header extends Component {
               <ButtonBI/>
             </nav>
           </div>
+          <Menu/>
         </header>
     );
   }

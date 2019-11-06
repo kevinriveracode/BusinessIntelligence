@@ -22,6 +22,28 @@ class TiendaOnline extends Component{
   constructor(props){
     super(props);
     this.state = {
+      howHave: [
+        {
+          image:'',
+          title:'Tiendas online profesionales y económicas',
+          description:'Desarrollamos tu tienda online con todo lo que necesitas, con un diseño personalizado a medida'
+        } ,
+        {
+          image:'',
+          title:'Tendrás una tienda online totalmente autogestionable',
+          description:'Te enseñamos la gestión básica de tu tienda online, para que puedas llevarla tú, sin depender de nadie.'
+        },
+        {
+          image:'',
+          title:'La tienda online será de tu propiedad, 100% a tu nombre',
+          description:'La web está alojada en un servidor y con un dominio a tu nombre, por lo que no estarás atado a nadie.'
+        },
+        {
+          image:'',
+          title:'Diseño de tiendas online responsive adaptado',
+          description:'Ya no vale cualquier diseño, la tienda online debe ser dinámica y adaptada a cualquier pantalla.'
+        }
+      ],
       tecnologias:[
         {
           image:'',
@@ -70,7 +92,7 @@ class TiendaOnline extends Component{
         <section>
           <Header/>
           <ServiceWall category="Diseño de tiendas online" title="Nos especializamos en el diseño de tiendas online que venden, optimizando la conversión y maximizando los ingresos." features={data}/>
-          <ServiceHowHave/>
+          <ServiceHowHave items={this.state.howHave} section="DISEÑO DE TIENDAS ONLINE" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS TIENDAS ONLINE QUE DISEÑAMOS" />
           {this.state.tecnologias.map((tool)=> {
             return(<ServiceTechnology name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
           })}

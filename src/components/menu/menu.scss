@@ -1,0 +1,55 @@
+$height-Header : '110px';
+$background-Header : '#ffffff';
+$color-links : '#2f2c2c';
+$font-family :  'Varela Round';
+$padding: 1rem 0rem;
+$size-title: '1.5rem';
+.Menu{
+  position: absolute;
+  display: flex;
+  background-color: white;
+  min-width: 70vw;
+  top: 13vh;
+  .MenuServiceWeb{
+    .TitleMenuService{
+      width: 22vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 2vw;
+      text-align: center;
+      background-color: #eee;
+      border: 1px solid #ddd;
+      h2{
+        margin-bottom: 0;
+      }
+      p{
+        font-size: 1em;
+        font-weight: 300;
+      }
+    }
+    .ServiceLink{
+      width: 22vw;
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      padding: 1vh 2vw;
+      border: 1px solid #ddd;
+      text-align: center;
+      p{
+        text-align: left;
+        h3{
+          font-size: 1em;
+          font-weight: 400;
+        }
+        p{
+          font-size: 0.7em;
+          font-weight: 300;
+        }
+        h3 , p{
+          margin: 0 0;
+        }
+      }
+    }
+  }
+}
