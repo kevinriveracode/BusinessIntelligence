@@ -85,9 +85,6 @@ class DiseñoWeb extends Component{
         return(
             <section>
                 <Header/>
-<<<<<<< HEAD
-                <ServiceWall category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red, así como un servicio eficaz de posicionamiento para destacar sobre tu competencia. La página web es tu escaparate al mundo. Confía en los mejores." features={[]} />
-=======
                 <ServiceWall category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red." features={[]} />
                 <ServiceHowHave items={this.state.howHave} section="DISEÑO DE PAGINAS WEB" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS PAGINAS WEB QUE DISEÑAMOS"/>
                 {this.state.tecnologias.map((tool)=> {
@@ -95,7 +92,6 @@ class DiseñoWeb extends Component{
                 })}
                 <Banner/>
                 <Opiniones/>
->>>>>>> e5391745d569e10ffdd3c691b2db1de95e9d1fcd
                 <ChatBot/>
                 <Footer/>
             </section>
