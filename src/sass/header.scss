@@ -43,14 +43,18 @@ $size-title: '1.5rem';
     nav{
       display: flex;
       list-style: none;
+      color:white;
       li{
-        font-family: $font-family;
-        padding: 0vh 1rem;
-        font-size: 1.2em;
-        display: flex;
-        align-items: center;
-        font-weight: 600;
-        color: $color-links
+        color:$color-links;
+        a{
+          font-family: $font-family;
+          padding: 0vh 1rem;
+          font-size: 1.2em;
+          display: flex;
+          align-items: center;
+          font-weight: 600;
+          color: white;
+        }
         img{
           width: 1.6em;
         }
