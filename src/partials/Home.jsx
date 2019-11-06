@@ -32,6 +32,9 @@ class Header extends Component {
     }
  
   }
+  goToHome = () => {
+    window.location = "http://localhost:3000"
+  }
   render() {
     window.onscroll = () => {
       this.stickyMenu();
@@ -39,7 +42,7 @@ class Header extends Component {
     return (
         <header id="HeaderNav" className="Header">
           <div className="container-logo">
-            <p className="reference-logo">
+            <p className="reference-logo" onClick={this.goToHome}>
               <h1 className="title">Business Intelligence</h1>
               <h3 className="subtitle">AGENCIA DE SOLUCIONES TECNOLOGICAS</h3>
             </p>
