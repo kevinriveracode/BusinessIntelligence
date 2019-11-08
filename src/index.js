@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import Home from './views/home';
 import TiendaOnline from './views/TiendaOnline';
 import DiseñoWeb from './views/DiseñoWeb';
+import BackOffice  from './views/backoffice/backoffice';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route path='/' exact component={Home}/>
         <Route path='/service/ecommerce' exact component={TiendaOnline} />
         <Route path='/service/web' exact component={DiseñoWeb} />
+        <Route path='/userpanel' exact component={BackOffice} />
       </Switch>
     </BrowserRouter>,
     document.getElementById('root'));

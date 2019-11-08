@@ -1,0 +1,63 @@
+.backoffice{
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  .BackofficeBody{
+    display: flex;
+    .body-content{
+      background-color: #F7F7F7;
+      width: 85%;
+    }
+    .navigation{
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      background-color:rgb(7, 71, 166);;
+      height: 90vh;
+      h3{
+        padding: 0em 1em;
+        color: white;
+        margin: 3px 0;
+        padding-top: 10px;
+      }
+      span{
+        padding: 0em 1em;
+        color: white;
+        margin-bottom: 4vh;
+      }
+      nav{
+        list-style: none;
+        li{
+          border-top: 1px solid #008dde;
+          border-bottom: 1px solid #008dde;
+          cursor: pointer;
+          padding: 15px 0;
+          font-size: 1.2em;
+          padding-left: 1em;
+          color: white;
+        }
+      }
+    }
+  }
+  .BackofficeHeader{
+    box-shadow: 0px 2px 4px -1px #008dde;
+    background-color: #008dde;
+    display: flex;
+    width: 99%;
+    height: 5.7vh;
+    padding: 1rem 1rem;
+    align-items: center;
+    div{
+      h3{
+        color:white;
+        font-size: 1.7em;
+        margin: 3px 0;
+        font-weight: lighter;
+      }
+      span{
+        font-weight: bold;
+        color: white;
+      }
+    }
+  }
+}
