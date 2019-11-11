@@ -15,28 +15,29 @@ import ChatBot from '../components/chat';
 import ServiceWall from '../components/ServiceWall';
 import ServiceHowHave from '../components/ServiceHowHave';
 import ServiceTechnology from '../components/ServiceTechnology';
+import LandingWeb from '../components/landing-page';
 class DiseñoWeb extends Component{
   constructor(props){
     super(props);
     this.state = {
       howHave:[
         {
-          image:'',
+          image:'amedida.png',
           title:'Diseño a medida',
           description:'Parte del éxito es, sin duda, su diseño, construido en exclusiva para un público y una idea.'
         },
         {
-          image:'',
+          image:'autogestion.png',
           title:'Responsive 100%',
           description:'Diseñadas para mejorar la usabilidad y la experiencia del usuario en cualquier dispositivo.'
         },
         {
-          image:'',
+          image:'responsive.png',
           title:'Autogestión',
           description:'Proyectos que permiten un crecimiento constante y a la medida de las necesidades'
         },
         {
-          image:'',
+          image:'crecimiento.png',
           title:'Crecimiento',
           description:'Desarrollos potencialmente exitosos, creados para lo que realmente importa: las ventas.'
         },
@@ -87,8 +88,9 @@ class DiseñoWeb extends Component{
                 <Header/>
                 <ServiceWall category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red." features={[]} />
                 <ServiceHowHave items={this.state.howHave} section="DISEÑO DE PAGINAS WEB" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS PAGINAS WEB QUE DISEÑAMOS"/>
+                <LandingWeb/>
                 {this.state.tecnologias.map((tool)=> {
-                  return(<ServiceTechnology name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
+                  return(<ServiceTechnology image={tool.image} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
                 })}
                 <Banner/>
                 <Opiniones/>
