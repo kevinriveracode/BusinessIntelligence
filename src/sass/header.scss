@@ -34,12 +34,14 @@ $size-title: '1.5rem';
       h3{margin: 0vh 0vw;font-size:0.7rem;font-family: $font-family;color: white;font-weight: 700;}
     }
   }
-  .app-menu{
+  .menu-mobile{
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-left: 4em;
   }
+
   .primary-menu{
     display: flex;
     color: white;
