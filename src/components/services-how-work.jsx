@@ -21,8 +21,8 @@ class HowWork extends Component {
     return (
         <section className="HowWork">
           <div className="section-title">
-            <h2>¿Que ofrecemos?</h2>
-            <p>Planes estratégicos de comunicación, diseño y marketing que darán
+            <h2>¿Que <b>ofrecemos?</b></h2>
+            <p>Planes estratégicos de <b>comunicación, diseño y marketing </b> que darán
               visibilidad a tu negocio.</p>
           </div>
           <div className="section-features">

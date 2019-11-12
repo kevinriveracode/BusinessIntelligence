@@ -21,7 +21,7 @@ $size-title: '1.5rem';
       background-color: white;
       width: 15rem;
       text-align: center;
-      box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+      box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
       border-top-left-radius: 1px;
       border-top-right-radius: 1px;
       border-bottom-left-radius: 1px;
@@ -76,9 +76,33 @@ $size-title: '1.5rem';
       }
     }
     .section-features{
+      display: flex;
       .feature-item{
-        width: 90vw;
-        margin: 3vh 0vw;
+        width: 43vw;
+        margin: 0.5vh 0vw;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        hr{
+          display: none;
+        }
+        img{
+          width: 4rem;
+        }
+        p{
+          text-align: left;
+        }
+        button{
+          width: 7rem;
+          height: 5vh;
+          min-width: 8vw;
+          border-radius: 1px;
+          padding:0 !important;
+        }
       }
     }
   }

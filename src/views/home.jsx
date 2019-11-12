@@ -12,6 +12,7 @@ import Tools from '../components/tools';
 import Opiniones from  '../components/opiniones';
 import Banner from '../components/banner';
 import ChatBot from '../components/chat';
+import AppCalculatePrice from '../components/CalculaWeb';
 class Home extends Component {
   render() {
     return (
