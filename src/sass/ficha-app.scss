@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  min-height: 40vh;
   background-color: white;
   border-top: #797979;
   .ficha-image{
@@ -27,6 +27,24 @@
       line-height: 1.6em;
       font-size: 1.1rem;
       color:#777777;
+    }
+  }
+}
+@media only screen and (max-width: 414px) {
+  .Ficha-app{
+    flex-direction: column;
+    padding: 2rem 1rem;
+    min-height: 20vh;
+    .ficha-description{
+      h1{
+        font-size: 2em;
+      }
+      p{
+        font-size: 1em;
+      }
+    }
+    .ficha-image{
+      display: none;
     }
   }
 }

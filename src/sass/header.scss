@@ -4,7 +4,9 @@ $color-links : '#2f2c2c';
 $font-family :  'Varela Round';
 $padding: 1rem 0rem;
 $size-title: '1.5rem';
-
+.Home{
+  overflow-x: hidden;
+}
 .Header{
   display: flex;
   height: $height-Header;
@@ -73,6 +75,36 @@ $size-title: '1.5rem';
   position: fixed;
   background-color: #008dde ;
   .container-logo{
-    height: 2rem !important;
+    min-height: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .Header{
+    justify-content: flex-start;
+    padding: 0vh 0vw;
+    .container-logo{
+      padding-left: 1rem;
+      .reference-logo{
+        font-size: 2em;
+        width: 64vw;
+      }
+    }
+    .primary-menu{
+      display: none;
+    }
+    .app-menu{
+      display: none;
+    }
+  }
+  .HeaderPosition{
+    height: 12vh;
+    align-items: center;
+    .container-logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+    }
   }
 }

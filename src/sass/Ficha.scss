@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  min-height: 45vh;
   background-color: #F7F7F7;
   border-top: #797979;
   .ficha-image{
@@ -28,5 +28,38 @@
       font-size: 1.1rem;
       color:#777777;
     }
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .Ficha {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    min-height: 40vh;
+    .ficha-description{
+      width: 100vw;
+      padding: 0vh 1rem;
+      h1{
+        margin-bottom: 0;
+        text-align: left ;
+      }
+      h1,span,p{
+        padding: 0 1rem;
+      }
+      h1{
+        font-size: 2em;
+        text-align: center;
+        span{
+          padding-right: 0;
+        }
+      }
+      button{
+        margin-left: 1rem;
+      }
+    }
+    .ficha-image{
+      display: none;
+    }
+
   }
 }

@@ -9,7 +9,7 @@ $size-title: '1.5rem';
   padding: $padding;
   display: flex;
   justify-content: space-between;
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
   .why-container-image{
     width: 35vw;
@@ -43,6 +43,27 @@ $size-title: '1.5rem';
 
       margin-bottom: 0px;
       font-family: 'Varela Round';
+    }
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .Why{
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    flex-direction: column;
+    .why-container-image{
+      min-width: 100vw;
+    }
+    .why-container-text{
+      padding: 0 1rem;
+      min-width: 100vw;
+      h1{
+        font-size: 1.6em;
+      }
+      p , h1 ,h3{
+        padding: 0vh 1rem;
+      }
     }
   }
 }

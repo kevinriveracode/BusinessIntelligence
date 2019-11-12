@@ -51,3 +51,26 @@ $size-title: '1.5rem';
     }
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .tools{
+    padding: 1vh 1rem;
+    .tools-items{
+      .box-tool{
+        width: 35vw;
+        img{
+          width: 20vw !important;
+        }
+      }
+    }
+    .tools-title{
+      h1{
+        font-size: 2em;
+      }
+      h3{
+        font-size: 1em;
+        padding: 0 0;
+      }
+    }
+  }
+}

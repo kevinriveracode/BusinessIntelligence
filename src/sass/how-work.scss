@@ -16,7 +16,7 @@ $size-title: '1.5rem';
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 2em 0;
+    padding: 1em 0;
     .feature-item{
       background-color: white;
       width: 15rem;
@@ -66,3 +66,20 @@ $size-title: '1.5rem';
 .bg-marine{background-color: #4DBFA6;height: 1px}
 .bg-piel{background-color: #FAB87B;height: 1px}
 .bg-marine-dark{background-color: #51BFBE;height: 1px}
+
+@media only screen and (max-width: 414px) {
+  .HowWork{
+    padding: 2rem 1rem;
+    .section-title{
+      h2{
+        font-size: 1.7em;
+      }
+    }
+    .section-features{
+      .feature-item{
+        width: 90vw;
+        margin: 3vh 0vw;
+      }
+    }
+  }
+}
