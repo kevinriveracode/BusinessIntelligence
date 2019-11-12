@@ -83,8 +83,10 @@ $size-title: '1.5rem';
   .Header{
     justify-content: flex-start;
     padding: 0vh 0vw;
+    align-items: center;
     .container-logo{
       padding-left: 1rem;
+      width: 80vw;
       .reference-logo{
         font-size: 2em;
         width: 64vw;
@@ -95,6 +97,11 @@ $size-title: '1.5rem';
     }
     .app-menu{
       display: none;
+    }
+    .menu-mobile{
+      img{
+        width: 2rem;
+      }
     }
   }
   .HeaderPosition{

@@ -62,6 +62,9 @@ class Header extends Component {
               <ButtonBI/>
             </nav>
           </div>
+          <div className="menu-mobile">
+            <img src="/svg/menu.svg" alt=""/>
+          </div>
           <Menu/>
         </header>
     );
