@@ -40,7 +40,10 @@ $size-title: '1.5rem';
     justify-content: flex-end;
     padding-left: 4em;
   }
-
+  .app-menu{
+    display: flex;
+    align-items: center;
+  }
   .primary-menu{
     display: flex;
     color: white;
@@ -75,8 +78,10 @@ $size-title: '1.5rem';
   transition: 2s ease;
   position: fixed;
   background-color: #008dde ;
+  max-height: 5vh;
   .container-logo{
     min-height: 2rem !important;
+    height: 0rem ;
   }
 }
 
@@ -103,15 +108,21 @@ $size-title: '1.5rem';
       display: none;
     }
     .menu-mobile{
+      display: flex;
+      padding-left: 0;
       img{
         width: 2rem;
       }
     }
   }
   .HeaderPosition{
-    height: 12vh;
+    min-height: 12vh;
     align-items: center;
+    .reference-logo{
+      margin-bottom: 0;
+    }
     .container-logo{
+      justify-content: center;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
