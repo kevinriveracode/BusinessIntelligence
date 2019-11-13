@@ -35,8 +35,7 @@ $size-title: '1.5rem';
     }
   }
   .menu-mobile{
-    visibility: hidden;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: flex-end;
     padding-left: 4em;
@@ -92,6 +91,9 @@ $size-title: '1.5rem';
       .reference-logo{
         font-size: 2em;
         width: 64vw;
+      }
+      .menu-mobile{
+        display: flex;
       }
     }
     .primary-menu{
