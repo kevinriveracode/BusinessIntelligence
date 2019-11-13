@@ -15,6 +15,7 @@ import ChatBot from '../components/chat';
 import ServiceWall from '../components/ServiceWall';
 import ServiceHowHave from '../components/ServiceHowHave';
 import ServiceTechnology from '../components/ServiceTechnology';
+import MenuMobile from '../components/menu-mobile';
 class DiseñoWeb extends Component{
   constructor(props){
     super(props);
@@ -94,6 +95,7 @@ class DiseñoWeb extends Component{
                 <Opiniones/>
                 <ChatBot/>
                 <Footer/>
+                <MenuMobile/>
             </section>
         )
     }

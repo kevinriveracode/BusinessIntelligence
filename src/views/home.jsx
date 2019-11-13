@@ -13,6 +13,7 @@ import Opiniones from  '../components/opiniones';
 import Banner from '../components/banner';
 import ChatBot from '../components/chat';
 import AppCalculatePrice from '../components/CalculaWeb';
+import MenuMobile from '../components/menu-mobile';
 class Home extends Component {
   render() {
     return (
@@ -29,6 +30,7 @@ class Home extends Component {
           <Opiniones/>
           <Footer/>
           <ChatBot/>
+          <MenuMobile/>
         </section>
     );
   }

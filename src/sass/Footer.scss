@@ -40,11 +40,14 @@ $size-title: '1.5rem';
 }
 @media only screen and (max-width: 414px) {
   .Footer{
-    flex-direction: column;
     padding: 1rem 1rem;
+    flex-wrap: wrap;
     div{
-      width: 90vw;
+      width: 40vw;
       padding: 1em 0;
+      h2{
+        margin-bottom: 1vh;
+      }
     }
   }
 }

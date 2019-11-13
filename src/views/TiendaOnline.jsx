@@ -15,6 +15,7 @@ import ChatBot from '../components/chat';
 import ServiceWall from '../components/ServiceWall';
 import ServiceHowHave from '../components/ServiceHowHave';
 import ServiceTechnology from '../components/ServiceTechnology';
+import MenuMobile from '../components/menu-mobile';
 
 
 
@@ -100,6 +101,7 @@ class TiendaOnline extends Component{
           <Opiniones/>
           <ChatBot/>
           <Footer/>
+          <MenuMobile/>
         </section>
     )
   }

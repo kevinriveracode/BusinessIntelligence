@@ -8,7 +8,8 @@ class Header extends Component {
   constructor(props){
     super(props);
     this.state = {
-      menu:false
+      menu:false,
+      menuMobile: false
     }
   }
   stickyMenu = () => {
@@ -34,6 +35,9 @@ class Header extends Component {
   }
   goToHome = () => {
     window.location = "http://localhost:3000"
+  }
+  showMobileMenu = () => {
+    $('.Menu-Mobile').show();
   }
   render() {
     window.onscroll = () => {
@@ -62,8 +66,8 @@ class Header extends Component {
               <ButtonBI/>
             </nav>
           </div>
-          <div className="menu-mobile">
-            <img src="/svg/menu.svg" alt=""/>
+          <div  className="menu-mobile">
+            <img onClick={this.showMobileMenu} src="/svg/menu.svg" alt=""/>
           </div>
           <Menu/>
         </header>
