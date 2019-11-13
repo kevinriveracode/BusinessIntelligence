@@ -19,7 +19,7 @@ class ServiceTechnology extends Component{
             <p>
               {this.props.description}
             </p>
-            <h5>Caracteristicas de PrestaShop</h5>
+            <h5><b>Caracteristicas de PrestaShop:</b></h5>
             <ul>
 
             </ul>

@@ -55,3 +55,32 @@ $size-title: '1.5rem';
     }
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .ServiceHowHave{
+    padding: 2rem 1rem;
+    div{
+      .content-section{
+        padding-top: 0;
+        div{
+          width: 40vw;
+          border:1px solid #404040;
+          background-color: #fff;
+          box-shadow: 0 8px 17px 2px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.2);
+          text-align: center;
+          p{
+            font-size: 0.7em;
+          }
+        }
+      }
+      .title-section{
+        span{
+          font-size: 0.7em;
+        }
+        h2{
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}
