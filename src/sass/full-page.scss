@@ -4,9 +4,10 @@ $color-links : '#2f2c2c';
 $font-family :  'Varela Round';
 $padding: 1rem 5.5rem;
 $size-title: '1.5rem';
+$url-production : 'http://82.223.34.28';
 
 .FullPage{
-  background: url("http://localhost:3000/background.jpg");
+  background: url($url-production+"/background.jpg");
   background-size: 100% 100%;
   height: 100vh;
   display: flex;

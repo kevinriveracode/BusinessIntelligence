@@ -16,7 +16,7 @@ class ServiceWall extends Component{
             </ul>
           </div>
           <div className="image">
-            <img src="/ecommerce-bg.png" alt=""/>
+            <img src="http://82.223.34.28/ecommerce-bg.png" alt=""/>
           </div>
         </div>
     )

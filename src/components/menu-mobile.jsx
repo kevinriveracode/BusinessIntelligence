@@ -15,12 +15,12 @@ class MenuMobile extends Component{
           </div>
           <div className="main">
             <nav>
-              <li><img src="/menu-mobile/home.svg" alt=""/><Link to="/">Inicio</Link></li>
-              <li><img src="/menu-mobile/servicios.svg" alt=""/><Link to="/service/web">Servicios</Link></li>
-              <li><img src="/menu-mobile/portafolio.svg" alt=""/><Link to="/">Portafolio</Link></li>
-              <li><img src="/menu-mobile/sobre-nosotros.svg" alt=""/><Link to="/">Nosotros</Link></li>
-              <li><img src="/menu-mobile/blog.svg" alt=""/><Link to="/">Blog</Link></li>
-              <li><img src="/menu-mobile/contacto.svg" alt=""/><Link to="/">Contacto</Link></li>
+              <li><img src="http://82.223.34.28/menu-mobile/home.svg" alt=""/><Link to="/">Inicio</Link></li>
+              <li><img src="http://82.223.34.28/menu-mobile/servicios.svg" alt=""/><Link to="/service/web">Servicios</Link></li>
+              <li><img src="http://82.223.34.28/menu-mobile/portafolio.svg" alt=""/><Link to="/">Portafolio</Link></li>
+              <li><img src="http://82.223.34.28/menu-mobile/sobre-nosotros.svg" alt=""/><Link to="/">Nosotros</Link></li>
+              <li><img src="http://82.223.34.28/menu-mobile/blog.svg" alt=""/><Link to="/">Blog</Link></li>
+              <li><img src="http://82.223.34.28/menu-mobile/contacto.svg" alt=""/><Link to="/">Contacto</Link></li>
             </nav>
           </div>
           <div className="main-service">

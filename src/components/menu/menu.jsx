@@ -3,10 +3,10 @@ import './menu.scss';
 class Menu extends Component{
   
   goToWeb = () => {
-    window.location = 'http://localhost:3000/service/web'
+    window.location = 'http://82.223.34.28/service/web'
   }
   goToTienda = () => {
-    window.location = 'http://localhost:3000/service/ecommerce'
+    window.location = 'http://82.223.34.28/service/ecommerce'
   }
 
   render(){
