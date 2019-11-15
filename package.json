@@ -2,6 +2,7 @@
   "name": "frontend-business",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
