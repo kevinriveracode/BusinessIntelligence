@@ -12,7 +12,7 @@ class FeatureReverse extends Component {
               <p>{this.props.descripcion}</p>
             </p>
           </div>
-          <div>
+          <div className="feature-image">
             <img src={this.props.imagen} alt=""/>
           </div>
         </section>

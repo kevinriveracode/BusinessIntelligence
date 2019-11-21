@@ -6,7 +6,7 @@ class Feature extends Component {
   render() {
     return (
         <section className="Feature">
-          <div>
+          <div className="feature-image">
             <img src="/todo.svg" alt=""/>
           </div>
           <div className="feature-text">

@@ -10,7 +10,7 @@ $size-title: '1.5rem';
 .Feature{
   display: flex;
   justify-content: space-between;
-  height: 75vh;
+  min-height: 50vh;
   padding: 2rem 5.5rem;
   .feature-text{
     display: flex;
@@ -28,6 +28,20 @@ $size-title: '1.5rem';
       p{
         color:#95a0b0;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .Feature{
+    padding: 0rem 1rem;
+    min-height: 45vh !important;
+    align-items: flex-start;
+    .feature-text{
+      width: 100vw;
+    }
+    .feature-image{
+      display: none;
     }
   }
 }
