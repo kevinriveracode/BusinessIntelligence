@@ -1,0 +1,26 @@
+.u-flex{
+  display: flex;
+}
+.u-flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.w-30{
+  width: 30vw;
+}
+
+.jc-between{
+  justify-content: space-between;
+}
+.jc-center{
+  justify-content: center;
+}
+
+.content{
+  padding: 0rem 3rem;
+}
+
+.img-responsive{
+  width: 15%;
+}

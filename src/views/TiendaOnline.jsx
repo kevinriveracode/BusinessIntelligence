@@ -19,6 +19,7 @@ import MenuMobile from '../components/menu-mobile';
 import TitleSection from '../components/title-section';
 import Feature from '../components/feature';
 import FeatureReverse from '../components/feature-reverse';
+import ServiceTech from '../components/ServiceTech';
 
 
 
@@ -140,6 +141,8 @@ class TiendaOnline extends Component{
           {this.state.tecnologias.map((tool)=> {
             return(<ServiceTechnology name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
           })}
+          <TitleSection title="Una tienda única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
+          <ServiceTech/>
           <Banner/>
           <Opiniones/>
           <ChatBot/>

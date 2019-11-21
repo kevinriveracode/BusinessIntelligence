@@ -31,8 +31,10 @@ $size-title: '1.5rem';
 @media only screen and (max-width: 414px) {
   .title-section{
     div{
+      padding: 1rem;
+      text-align: center;
       h3{
-        font-size: .7em;
+        font-size: .9em;
       }
       h1{
         font-size: 1.5em;
