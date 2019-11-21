@@ -1,0 +1,30 @@
+$height-Header: '110px';
+$background-Header: '#ffffff';
+$color-links: '#2f2c2c';
+$font-family: 'Varela Round';
+$padding: 2rem 5.5rem;
+$size-title: '1.5rem';
+
+.title-section{
+  display: flex;
+  justify-content: center;
+  padding: 3vh 0;
+  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1,h3{
+      font-family: $font-family;
+    }
+    h3{
+      margin-top: 5px;
+      color:#008dde;
+    }
+    h1{
+      font-size: 3em;
+      font-weight: lighter;
+      color:#3B3B3B;
+      margin-bottom: 5px;
+    }
+  }
+}

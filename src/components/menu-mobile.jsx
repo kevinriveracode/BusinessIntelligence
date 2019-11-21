@@ -8,7 +8,7 @@ class MenuMobile extends Component{
   }
   render(){
     return(
-        <section className="Menu-Mobile">
+        <section className="Menu-Mobile" style={{display:'none'}}>
           <div className="header-menu-mobile">
             <h1>Business Intelligence</h1>
             <img onClick={this.hideMobileMenu} src="/close.svg" alt=""/>

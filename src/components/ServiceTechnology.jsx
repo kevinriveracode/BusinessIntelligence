@@ -11,7 +11,7 @@ class ServiceTechnology extends Component{
   render(){
 
     return(
-        <section className={`ServiceTechnology  ${this.props.view}`}>
+        <section className={`ServiceTechnology   ${this.props.view}`}>
           <div className="image"></div>
           <div className="text">
             <span>E-commerce</span>

@@ -1,0 +1,33 @@
+$height-Header: '110px';
+$background-Header: '#ffffff';
+$color-links: '#2f2c2c';
+$font-family: 'Varela Round';
+$padding: 2rem 5.5rem;
+$size-title: '1.5rem';
+.start{
+  flex-direction: row-reverse;
+}
+.Feature{
+  display: flex;
+  justify-content: space-between;
+  height: 75vh;
+  padding: 2rem 5.5rem;
+  .feature-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2em;
+    p{
+      h2{
+        color: #001b41;
+      }
+      h4{
+       color:#95a0b0;
+      }
+      p{
+        color:#95a0b0;
+      }
+    }
+  }
+}
