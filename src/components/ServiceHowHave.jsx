@@ -13,7 +13,7 @@ class ServiceHowHave extends Component{
               {this.props.items.map((item)=> {
                 return(
                     <div>
-                      <img src=""/>
+                      <img className="image" src={item.image}/>
                       <h3>{item.title}</h3>
                       <p>{item.description}</p>
                     </div>

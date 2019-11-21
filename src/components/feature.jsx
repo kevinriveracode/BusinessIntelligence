@@ -15,7 +15,7 @@ class Feature extends Component {
               <h2>Todo lo que necesitas para vender en internet</h2>
               <p>Para crear grandes cosas, tienes que dar primero pequeños
                 pasos. Disfruta de los beneficios de contar con una plataforma
-                que hace que tu tienda online destaque. Los packs de tiendas
+                que hace que tu tienda online destaque. <br/>Los packs de tiendas
                 online de MyWebsite eCommerce ayudan a que tu negocio crezca y
                 evolucione, e
                 incluye todas las herramientas que necesitas para tener en

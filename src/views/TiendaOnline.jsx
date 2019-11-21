@@ -28,22 +28,22 @@ class TiendaOnline extends Component{
     this.state = {
       howHave: [
         {
-          image:'',
+          image:'/ecommerce/profesional.svg',
           title:'Tiendas online profesionales y económicas',
           description:'Desarrollamos tu tienda online con todo lo que necesitas, con un diseño personalizado a medida'
         } ,
         {
-          image:'',
+          image:'/ecommerce/gestionable.svg',
           title:'Tendrás una tienda online totalmente autogestionable',
           description:'Te enseñamos la gestión básica de tu tienda online, para que puedas llevarla tú, sin depender de nadie.'
         },
         {
-          image:'',
+          image:'/ecommerce/own.svg',
           title:'La tienda online será de tu propiedad, 100% a tu nombre',
           description:'La web está alojada en un servidor y con un dominio a tu nombre, por lo que no estarás atado a nadie.'
         },
         {
-          image:'',
+          image:'/ecommerce/tablet.svg',
           title:'Diseño de tiendas online responsive adaptado',
           description:'Ya no vale cualquier diseño, la tienda online debe ser dinámica y adaptada a cualquier pantalla.'
         }
