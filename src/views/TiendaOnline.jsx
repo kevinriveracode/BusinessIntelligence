@@ -20,7 +20,8 @@ import TitleSection from '../components/title-section';
 import Feature from '../components/feature';
 import FeatureReverse from '../components/feature-reverse';
 import ServiceTech from '../components/ServiceTech';
-
+import '../sass/utils.scss';
+import ItemInfo from '../components/item-info';
 
 
 class TiendaOnline extends Component{
@@ -137,9 +138,15 @@ class TiendaOnline extends Component{
           <FeatureReverse imagen={this.state.advantages[0].img} slogan={this.state.advantages[0].slogan} titulo={this.state.advantages[0].title} descripcion={this.state.advantages[0].description} pos={''}/>
           <FeatureReverse imagen={this.state.advantages[1].img} slogan={this.state.advantages[1].slogan} titulo={this.state.advantages[1].title} descripcion={this.state.advantages[1].description}  pos={'start'}/>
           <FeatureReverse imagen={this.state.advantages[2].img} slogan={this.state.advantages[2].slogan} titulo={this.state.advantages[2].title} descripcion={this.state.advantages[2].description} pos={''}/>
+          <h3 className={'font-title-2 text-center'}>Recompensa a tus clientes e interactua con ellos</h3>
+          <div className={'content-box '}>
+            <ItemInfo image={'/recompensed/001-tag.svg'} name={'Descuentos'} description={'Personaliza la experiencia de compra con descuentos para tus clientes más fieles.'}/>
+            <ItemInfo image={'/recompensed/002-newsletter.svg'} name={'Herramientas de newsletter'} description={'La herramienta de newsletter integrada hace aún más fácil organizar campañas y estar en contacto con tus clientes.'}/>
+            <ItemInfo image={'/recompensed/003-coupon.svg'} name={'Cupones'} description={'Deshazte de las existencias más antiguas fácilmente ofreciendo cupones para venderlas más rápidamente.'}/>
+          </div>
           <TitleSection title={'Atrevete a dar el paso'} subtitle={'Escoge entre multiples opciones.'}/>
           {this.state.tecnologias.map((tool)=> {
-            return(<ServiceTechnology name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
+            return(<ServiceTechnology image={'/brands/prestashop.svg'} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
           })}
           <TitleSection title="Una tienda única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
           <ServiceTech/>

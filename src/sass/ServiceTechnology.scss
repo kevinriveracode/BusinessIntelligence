@@ -11,12 +11,13 @@ $size-title: '1.5rem';
   display: flex;
   padding: $padding;
   .image{
-
+    width: 50vw;
     img{
-      width:100%;
+
     }
   }
   .text{
+    width: 50vw;
     span{
       margin-bottom: 0;
       color: #3B3B3B;

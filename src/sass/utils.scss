@@ -1,3 +1,10 @@
+$height-Header: '110px';
+$background-Header: '#ffffff';
+$color-links: '#2f2c2c';
+$font-family: 'Varela Round';
+$padding: 2rem 5.5rem;
+$size-title: '1.5rem';
+
 .u-flex{
   display: flex;
 }
@@ -26,10 +33,41 @@
 .pad-tex{
   padding: 0rem 1.5rem;
 }
+.pad-3-h{
+  padding: 3rem 3rem ;
+}
 .content{
   padding: 0rem 3rem;
 }
 
 .img-responsive{
   width: 15%;
+}
+
+.font-title-2{
+  font-family: $font-family;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+.font-description{
+  margin-top: 0px;
+  font-family: $font-family;
+  font-size: .9em;
+}
+.h-45{
+  min-height: 45vh;
+}
+.h-20{
+  min-height: 20vh;
+}
+.content-box{
+  display: flex;
+  padding: 3em 0;
+  min-height: 10vh;
+  justify-content: space-around;
+}
+
+.color-parrafo{
+  color: #95a0b0;
 }
