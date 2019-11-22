@@ -16,6 +16,8 @@ import ServiceWall from '../components/ServiceWall';
 import ServiceHowHave from '../components/ServiceHowHave';
 import ServiceTechnology from '../components/ServiceTechnology';
 import MenuMobile from '../components/menu-mobile';
+import TitleSection from '../components/title-section';
+import FeatureReverse from '../components/feature-reverse';
 class DiseñoWeb extends Component{
   constructor(props){
     super(props);
@@ -41,6 +43,14 @@ class DiseñoWeb extends Component{
           title:'Crecimiento',
           description:'Desarrollos potencialmente exitosos, creados para lo que realmente importa: las ventas.'
         },
+      ],
+      advantages:[
+        {
+          slogan:'El cambio es ahora...',
+          title:'Paginas web unicas y exclusivas para el exito',
+          description:'Desde Business Multi Intelligence pensamos que la mejor manera de cosnegui clientes es usar un diseño elegante combinaoo con una usabilidad especializada para que la experiencia del usuario sea unica y especial.',
+          img:''
+        }
       ],
       tecnologias:[
         {
@@ -87,6 +97,8 @@ class DiseñoWeb extends Component{
             <section>
                 <Header/>
                 <ServiceWall category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red." features={[]} />
+                <TitleSection title={'Paginas diseñadas para el exito'} subtitle={'Abre un mundo de posibilidades en minutos.'}/>
+                <FeatureReverse imagen={this.state.advantages[0].img} slogan={this.state.advantages[0].slogan} titulo={this.state.advantages[0].title} descripcion={this.state.advantages[0].description} pos={''}/>
                 <ServiceHowHave items={this.state.howHave} section="DISEÑO DE PAGINAS WEB" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS PAGINAS WEB QUE DISEÑAMOS"/>
                 {this.state.tecnologias.map((tool)=> {
                   return(<ServiceTechnology name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
