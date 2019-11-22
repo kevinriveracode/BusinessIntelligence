@@ -22,7 +22,7 @@ class Tools extends Component{
           <div className="tools-items">
             {this.state.tecnologias.map((tech)=>(
                 <div className="box-tool">
-                  <img className="logo-technology" src={'/'+tech+'.png'} alt=""/>
+                  <img className="logo-technology" src={'http://82.223.34.28'+'/'+tech+'.png'} alt=""/>
                 </div>
             ))}
           </div>

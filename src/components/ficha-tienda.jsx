@@ -21,7 +21,7 @@ class FichaTienda extends Component {
             <ButtonBI />
           </div>
           <div className="ficha-image">
-            <img src="/laptop.png" alt=""/>
+            <img src="http://82.223.34.28/laptop.png" alt=""/>
           </div>
         </section>
     );

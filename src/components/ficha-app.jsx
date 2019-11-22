@@ -6,7 +6,7 @@ class FichaApp extends Component {
     return (
         <section className="Ficha-app">
           <div className="ficha-image">
-            <img src="/app.png" alt=""/>
+            <img src="http://82.223.34.28/app.png" alt=""/>
           </div>
           <div className="ficha-description">
             <h1>

@@ -6,7 +6,7 @@ class Why extends Component {
     return (
         <section className="Why">
           <div className="why-container-image">
-            <img src="/digital.png" alt=""/>
+            <img src="http://82.223.34.28/digital.png" alt=""/>
           </div>
           <div className="why-container-text">
               <h1>El mundo se vuelve cada vez más digital</h1>

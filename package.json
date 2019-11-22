@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "http://82.223.34.28/intelligence/",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
