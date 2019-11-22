@@ -1,6 +1,7 @@
 {
   "name": "frontend-business",
   "version": "0.1.0",
+  "homepage": "http://82.223.34.28/intelligence/",
   "private": true,
   "dependencies": {
     "jquery": "^3.4.1",
