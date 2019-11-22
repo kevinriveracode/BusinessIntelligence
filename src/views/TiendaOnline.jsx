@@ -74,7 +74,7 @@ class TiendaOnline extends Component{
       ],
       tecnologias:[
         {
-          image:'',
+          image:'prestashop.svg',
           name:'PrestaShop',
           description:'Vender online con PrestaShop significa ofrecer a los comerciantes la posibilidad de superarse y aprovechar las fantásticas oportunidades que brinda internet. Una solución sencilla, eficaz, potente y de alcance internacional, creada para hacer que tu producto, tu idea, tu proyecto, tu tienda o tu startup, se conviertaen un todo un éxito del e-commerce en las regiones del mundo que tú quieras.',
           features:[
@@ -86,7 +86,7 @@ class TiendaOnline extends Component{
           view:''
         },
         {
-          image:'',
+          image:'shopify.svg',
           name:'Shopify',
           description:'Vender online con PrestaShop significa ofrecer a los comerciantes la posibilidad de superarse y aprovechar las fantásticas oportunidades que brinda internet. Una solución sencilla, eficaz, potente y de alcance internacional, creada para hacer que tu producto, tu idea, tu proyecto, tu tienda o tu startup, se conviertaen un todo un éxito del e-commerce en las regiones del mundo que tú quieras.',
           features:[
@@ -98,7 +98,7 @@ class TiendaOnline extends Component{
           view:'revert'
         },
         {
-          image:'',
+          image:'magento.svg',
           name:'Magento',
           description:'Vender online con PrestaShop significa ofrecer a los comerciantes la posibilidad de superarse y aprovechar las fantásticas oportunidades que brinda internet. Una solución sencilla, eficaz, potente y de alcance internacional, creada para hacer que tu producto, tu idea, tu proyecto, tu tienda o tu startup, se conviertaen un todo un éxito del e-commerce en las regiones del mundo que tú quieras.',
           features:[
@@ -110,7 +110,7 @@ class TiendaOnline extends Component{
           view:''
         },
         {
-          image:'',
+          image:'woocommerce.svg',
           name:'WooCommerce',
           description:'Vender online con PrestaShop significa ofrecer a los comerciantes la posibilidad de superarse y aprovechar las fantásticas oportunidades que brinda internet. Una solución sencilla, eficaz, potente y de alcance internacional, creada para hacer que tu producto, tu idea, tu proyecto, tu tienda o tu startup, se conviertaen un todo un éxito del e-commerce en las regiones del mundo que tú quieras.',
           features:[
@@ -146,7 +146,7 @@ class TiendaOnline extends Component{
           </div>
           <TitleSection title={'Atrevete a dar el paso'} subtitle={'Escoge entre multiples opciones.'}/>
           {this.state.tecnologias.map((tool)=> {
-            return(<ServiceTechnology image={'/brands/prestashop.svg'} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
+            return(<ServiceTechnology image={`/brands/${tool.image}`} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
           })}
           <TitleSection title="Una tienda única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
           <ServiceTech/>

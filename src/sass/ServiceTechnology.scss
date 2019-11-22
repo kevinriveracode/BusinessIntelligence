@@ -11,9 +11,12 @@ $size-title: '1.5rem';
   display: flex;
   padding: $padding;
   .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50vw;
     img{
-
+      width: 50%;
     }
   }
   .text{
@@ -50,6 +53,9 @@ $size-title: '1.5rem';
 @media only screen and (max-width: 414px) {
   .ServiceTechnology{
     padding: 2rem 1rem;
+    .image{
+      display: none;
+    }
     .text{
       width: 100vw;
     }
