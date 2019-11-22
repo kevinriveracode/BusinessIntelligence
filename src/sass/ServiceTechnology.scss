@@ -50,7 +50,19 @@ $size-title: '1.5rem';
     width: 50%;
   }
 }
+.title-mobile{
+  display: none;
+}
+
 @media only screen and (max-width: 414px) {
+  .title-text-mobile{
+    display: none;
+  }
+  .title-mobile{
+    display: flex;
+    width: 60%;
+    padding: 1.5vh 0;
+  }
   .ServiceTechnology{
     padding: 2rem 1rem;
     .image{

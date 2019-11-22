@@ -1,5 +1,8 @@
 import React , {Component} from 'react';
 import '../sass/ServiceWall.scss';
+import '../sass/utils.scss';
+
+import ButtonBI from './button';
 class ServiceWall extends Component{
   constructor(props){
     super(props);
@@ -18,6 +21,15 @@ class ServiceWall extends Component{
           <div className="image">
             <img src="/ecommerce-bg.png" alt=""/>
           </div>
+          <div className='u-flex jc-between w-100 '>
+            <div className="pad-1">
+              <ButtonBI/>
+            </div>
+            <div className="pad-1">
+              <ButtonBI/>
+            </div>
+          </div>
+
         </div>
     )
   }

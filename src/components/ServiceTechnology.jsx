@@ -16,8 +16,9 @@ class ServiceTechnology extends Component{
             <img src={this.props.image} alt=""/>
           </div>
           <div className="text">
-            <span>E-commerce</span>
-            <h2>{this.props.name}</h2>
+            <span><b>E-commerce</b></span>
+            <h2 className="title-text-mobile">{this.props.name}</h2>
+            <img className="title-mobile" src={this.props.image} alt=""/>
             <p>
               {this.props.description}
             </p>

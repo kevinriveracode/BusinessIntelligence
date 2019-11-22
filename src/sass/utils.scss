@@ -17,6 +17,9 @@ $size-title: '1.5rem';
   width: 30vw;
 }
 
+.w-100{
+  width: 100%;
+}
 .jc-between{
   justify-content: space-between;
 }
@@ -29,6 +32,12 @@ $size-title: '1.5rem';
 }
 .text-center{
   text-align: center;
+}
+.pad-1{
+  width: 100%;
+}
+.pad-box-bottom{
+
 }
 .pad-tex{
   padding: 0rem 1.5rem;
