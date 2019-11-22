@@ -47,6 +47,7 @@ class MenuMobile extends Component{
             <h4>Marketing digital</h4>
             <h4>Consultoria</h4>
           </div>
+          </div>
         </section>
     )
   }
