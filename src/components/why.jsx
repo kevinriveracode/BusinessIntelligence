@@ -9,23 +9,24 @@ class Why extends Component {
             <img src="/digital.png" alt=""/>
           </div>
           <div className="why-container-text">
-              <h1>El mundo se vuelve cada vez más digital</h1>
-              <h3>Porqué mi negocio necesita una página web y una correcta
-                imagen de marca.</h3>
-            <p>Mucho se habla de <b> transformación digital </b> y muchos piensan que
-                se trata de tecnología, pero la transformación digital significa
-                mucho más. <br/>
-                Las empresas necesitan dar el salto a lo digital para aumentar
-                los ingresos, reducir los costes, disminuir el riesgo y llegar
-                al mercado más rápido que la competencia.
-                <br/>
-                Pero para ello debemos <b>diseñar, implementar y administrar</b> un
-                plan de transformación digital que les guie para alcanzar estos
-                objetivos.</p>
-            <h3>¿Tienes un proyecto o un negocio?</h3>
-            <p>Te ofrecemos soluciones para tu empresa online, desde rediseños y
-              creaciones de nuevas páginas web hasta el posicionamiento en
-              buscadores (SEO), asesoramiento en marketing online…</p>
+            <h1>El mundo se vuelve cada vez más digital</h1>
+            <h3>Porqué mi negocio necesita una página web y una correcta
+              imagen de marca.</h3>
+            <p>¿Aun no estas en internet?, deberias saber que internet es uno de
+              los canales de venta donde todo el mundo quiere estas. Tener tu
+              negocio en linea permitira competir en iguales condiciones con
+              otras grandes empresas del sector ya que, cuando una persona
+              necesite conocer acerca de un producto o servicio, lo primero que
+              hará será consultar en Google, por lo que si la web de la empresa
+              logra estar entre los primeros puestos, los usuarios considerarán
+              a la marca dentro de sus opciones..</p>
+            <h3><b>Algunas razones por las que deberias estar en internet son:</b></h3>
+            <ul>
+              <li>Alcance mundial</li>
+              <li>Posibilidad de competir con las grandes empresas</li>
+              <li>Generación de contactos y oportunidades de negocio</li>
+              <li>Obtener clientes potenciales</li>
+            </ul>
           </div>
         </section>
     );

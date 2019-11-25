@@ -10,7 +10,7 @@ class FullPage extends Component {
     return (
         <section className="FullPage">
           <div className="target-info">
-            <h2>Diseño web y marketing online</h2>
+            <h2>Diseño web, Desarrollo de aplicaciones y SEO</h2>
             <h1>Tu lo imaginas, nosotros lo creamos</h1>
             <ButtonBI/>
           </div>
