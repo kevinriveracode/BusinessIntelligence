@@ -10,7 +10,7 @@ class Feature extends Component {
 
         <hr className={`bg-${this.props.color}`}/>
         <p>{this.props.descriptionFeature}</p>
-        <ButtonBI/>
+        <ButtonBI name={this.props.button}/>
       </div>
     );
   }
@@ -26,10 +26,10 @@ class HowWork extends Component {
               visibilidad a tu negocio.</p>
           </div>
           <div className="section-features">
-            <Feature color="red" image="/diseñoweb.png" nameFeature={"Diseño web"} descriptionFeature={'Desarrollamos la página web que tu negocio necesita, orientada siempre al marketing y las ventas.'}></Feature>
-            <Feature color="marine" image="/ecommerce.png"  nameFeature={"E-commerce"} descriptionFeature={"Te ayudamos a poner en marcha y a gestionar tu tienda online para que tus ventas despeguen en internet."}></Feature>
-            <Feature color="piel" image="/apps.png"  nameFeature={"Desarollo de Apps"} descriptionFeature={'Desarrollamos la app que tu empresa necesite adaptandos a tus necesidades, desarollamos tanto para android como para ios'}></Feature>
-            <Feature color="marine-dark" image="/seo.png"  nameFeature={"Posicionamiento SEO"} descriptionFeature={'Haz que te encuentren en Internet gracias a un buen posicionamiento SEO.'}></Feature>
+            <Feature button="Desde 499€" color="red" image="/diseñoweb.png" nameFeature={"Diseño web"} descriptionFeature={'Desarrollamos la página web que tu negocio necesita, orientada siempre al marketing y las ventas.'}></Feature>
+            <Feature  button="Desde 975€" color="marine" image="/ecommerce.png"  nameFeature={"E-commerce"} descriptionFeature={"Te ayudamos a poner en marcha y a gestionar tu tienda online para que tus ventas despeguen en internet."}></Feature>
+            <Feature  button="Desde 1600€" color="piel" image="/apps.png"  nameFeature={"Desarollo de Apps"} descriptionFeature={'Desarrollamos la app que tu empresa necesite adaptandos a tus necesidades, desarollamos tanto para android como para ios'}></Feature>
+            <Feature  button="Desde 130€" color="marine-dark" image="/seo.png"  nameFeature={"Posicionamiento SEO"} descriptionFeature={'Haz que te encuentren en Internet gracias a un buen posicionamiento SEO.'}></Feature>
           </div>
         </section>
     );

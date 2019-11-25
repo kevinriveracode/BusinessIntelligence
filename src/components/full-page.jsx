@@ -12,7 +12,7 @@ class FullPage extends Component {
           <div className="target-info">
             <h2>Diseño web, Desarrollo de aplicaciones y SEO</h2>
             <h1>Tu lo imaginas, nosotros lo creamos</h1>
-            <ButtonBI/>
+            <ButtonBI name={"¿Tienes un proyecto?"}/>
           </div>
           <div className="target-image">
             <AppCalculatePrice/>

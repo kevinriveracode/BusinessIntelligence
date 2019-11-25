@@ -10,7 +10,7 @@ class Banner extends Component {
             <p>Pide ahora tu presupuesto personalizado. Sin compromisos. Los mejores precios de Valencia.</p>
           </div>
           <div className="contact-button">
-            <ButtonBI/>
+            <ButtonBI name={"Contactanos"}/>
           </div>
         </section>
     );

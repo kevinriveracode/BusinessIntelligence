@@ -11,9 +11,7 @@ $size-title: '1.5rem';
   background-color: white;
   min-width: 70vw;
   top: 17vh;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 12px 0px #008dde;
+  webkit-box-shadow: 0px 0px 60vh 60vw rgba(0, 0, 0, 0.75);
   .MenuServiceWeb{
     .TitleMenuService{
       width: 22vw;
@@ -22,9 +20,8 @@ $size-title: '1.5rem';
       align-items: center;
       padding: 0 2vw;
       text-align: center;
-      background-color: #008dde;
-      border: 1px solid #008dde;
-      color:white;
+      //background-color: #008dde;
+      color:#2b2b2b;
       h2{
         margin-bottom: 0;
       }
@@ -38,12 +35,12 @@ $size-title: '1.5rem';
       min-height: 17.8vh;
       display: flex;
       padding: 1vh 2vw;
-      border: 1px solid #008dde;
+
       text-align: center;
       align-items: center;
       cursor:pointer;
       &:hover{
-        background-color: #008dde;
+        background-color: slategrey;
         transition: .1s ease-out;
         p{color:white}
       }

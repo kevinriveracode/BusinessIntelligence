@@ -18,7 +18,7 @@ class FichaTienda extends Component {
 
               <b>¡No esperes más, tu competencia ya tiene tienda online! </b> <br/>
             </p>
-            <ButtonBI />
+            <ButtonBI name={"¿Necesitas vender online?"}/>
           </div>
           <div className="ficha-image">
             <img src="/laptop.png" alt=""/>

@@ -63,7 +63,7 @@ class Header extends Component {
           </div>
           <div className="app-menu">
             <nav>
-              <ButtonBI/>
+              <ButtonBI name={"¿Tienes dudas?"}/>
             </nav>
           </div>
           <div  className="menu-mobile">

@@ -20,7 +20,7 @@ class Feature extends Component {
                 evolucione, e
                 incluye todas las herramientas que necesitas para tener en
                 éxito.</p>
-              <ButtonBI/>
+              <ButtonBI name={"Adquiere ya tu ecommerce y empieza a vender"}/>
             </p>
           </div>
         </section>

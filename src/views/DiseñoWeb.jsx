@@ -16,6 +16,8 @@ import ServiceWall from '../components/ServiceWall';
 import ServiceHowHave from '../components/ServiceHowHave';
 import ServiceTechnology from '../components/ServiceTechnology';
 import MenuMobile from '../components/menu-mobile';
+import Feature from '../components/feature';
+import TitleSection from '../components/title-section';
 class DiseñoWeb extends Component{
   constructor(props){
     super(props);
@@ -44,7 +46,7 @@ class DiseñoWeb extends Component{
       ],
       tecnologias:[
         {
-          image:'',
+          image:'/brands/wordpress.png',
           name:'WordPress',
           description:'La cifra es escandalosa; Según un informe de W3Techs, el 30% de todas las webs están hechas con WordPress.WordPress fue creado originalmente para la gestión de blogs, pero con el paso de los años, la fuerte comunidad que hay detrás ha ido mejorando el producto según las necesidades detectadas y añadiendo nuevas funciones que hoy en día nos permiten hacer casi cualquier tipo de Web',
           features:[
@@ -55,20 +57,9 @@ class DiseñoWeb extends Component{
           ],
           view:''
         },
+
         {
-          image:'',
-          name:'Drupal',
-          description:'Vender online con PrestaShop significa ofrecer a los comerciantes la posibilidad de superarse y aprovechar las fantásticas oportunidades que brinda internet. Una solución sencilla, eficaz, potente y de alcance internacional, creada para hacer que tu producto, tu idea, tu proyecto, tu tienda o tu startup, se conviertaen un todo un éxito del e-commerce en las regiones del mundo que tú quieras.',
-          features:[
-            'Plantillas personalizables',
-            'BackOffice',
-            'BackOffice',
-            'Expansión internacional'
-          ],
-          view:'revert'
-        },
-        {
-          image:'',
+          image:'/brands/joomla.png',
           name:'Joomla',
           description:'Vender online con PrestaShop significa ofrecer a los comerciantes la posibilidad de superarse y aprovechar las fantásticas oportunidades que brinda internet. Una solución sencilla, eficaz, potente y de alcance internacional, creada para hacer que tu producto, tu idea, tu proyecto, tu tienda o tu startup, se conviertaen un todo un éxito del e-commerce en las regiones del mundo que tú quieras.',
           features:[
@@ -77,7 +68,7 @@ class DiseñoWeb extends Component{
             'BackOffice',
             'Expansión internacional'
           ],
-          view:''
+          view:'revert'
         }
       ]
     }
@@ -87,9 +78,11 @@ class DiseñoWeb extends Component{
             <section>
                 <Header/>
                 <ServiceWall category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red." features={[]} />
+                <TitleSection title="Diseños web exclusivos" subtitle="Páginas Web con diseño exclusivo para pymes, autónomos y emprendedores"/>
+                <Feature/>
                 <ServiceHowHave items={this.state.howHave} section="DISEÑO DE PAGINAS WEB" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS PAGINAS WEB QUE DISEÑAMOS"/>
                 {this.state.tecnologias.map((tool)=> {
-                  return(<ServiceTechnology name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
+                  return(<ServiceTechnology image={tool.image} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
                 })}
                 <Banner/>
                 <Opiniones/>

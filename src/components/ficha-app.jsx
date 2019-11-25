@@ -18,7 +18,7 @@ class FichaApp extends Component {
               Si ya tienes una web, tienda, o cualquier tipo de software. Adaptaremos esa solución y la convertiremos en una nueva aplicación para dispositivos móviles. <br/>
               Te guiaremos desde la fase inicial de desarrollo, hasta la publicación en los marketplaces oficiales de Android e iOS.
             </p>
-            <ButtonBI />
+            <ButtonBI name={"¿Necesitas un app?"}/>
           </div>
         </section>
     );

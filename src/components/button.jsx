@@ -3,7 +3,7 @@ import '../sass/button.scss';
 class ButtonBI extends Component{
   render(){
     return(
-       <button className="Button">SABER MÁS</button>
+       <button className="Button">{this.props.name}</button>
     )
   }
 }
