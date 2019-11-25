@@ -46,9 +46,14 @@ class Header extends Component {
     return (
         <header id="HeaderNav" className="Header">
           <div className="container-logo">
-            <p className="reference-logo" onClick={this.goToHome}>
-              <h1 className="title">Business Intelligence</h1>
-              <h3 className="subtitle">AGENCIA DE SOLUCIONES TECNOLOGICAS</h3>
+            <p className="reference-logo u-flex" onClick={this.goToHome}>
+              <div>
+                <img className={"logo"} src="/logo.svg" alt=""/>
+              </div>
+              <div>
+                <h1 className="title">Business Intelligence</h1>
+                <h3 className="subtitle">AGENCIA DE SOLUCIONES TECNOLOGICAS</h3>
+              </div>
             </p>
           </div>
           <div className="primary-menu">

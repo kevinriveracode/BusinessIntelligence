@@ -24,22 +24,22 @@ class DiseñoWeb extends Component{
     this.state = {
       howHave:[
         {
-          image:'',
+          image:'/landingweb/web-medida.svg',
           title:'Diseño a medida',
           description:'Parte del éxito es, sin duda, su diseño, construido en exclusiva para un público y una idea.'
         },
         {
-          image:'',
+          image:'/landingweb/responsive.svg',
           title:'Responsive 100%',
           description:'Diseñadas para mejorar la usabilidad y la experiencia del usuario en cualquier dispositivo.'
         },
         {
-          image:'',
+          image:'/landingweb/autogestion.svg',
           title:'Autogestión',
           description:'Proyectos que permiten un crecimiento constante y a la medida de las necesidades'
         },
         {
-          image:'',
+          image:'/landingweb/crecimiento.svg',
           title:'Crecimiento',
           description:'Desarrollos potencialmente exitosos, creados para lo que realmente importa: las ventas.'
         },

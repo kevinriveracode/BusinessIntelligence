@@ -12,7 +12,7 @@ class ServiceWall extends Component{
             <h4>{this.props.category}</h4>
             <h1>{this.props.title}</h1>
             <ul>
-              {this.props.features.map((feature) => <li>{feature}</li>)}
+              {this.props.features.map((feature) => <li><img className={'tick'} src={"/tick.svg"}></img>{feature}</li>)}
             </ul>
           </div>
           <div className="image">

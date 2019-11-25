@@ -4,7 +4,11 @@ $color-links: '#2f2c2c';
 $font-family: 'Varela Round';
 $padding: 2rem 5.5rem;
 $size-title: '1.5rem';
-
+.tick{
+  width: 1rem;
+  padding-top: 2px;
+  margin-right: 10px;
+}
 .ServiceWall{
   min-height: 65vh;
   display: flex;
