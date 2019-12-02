@@ -51,8 +51,8 @@ class Header extends Component {
                 <img className={"logo"} src="/logo.svg" alt=""/>
               </div>
               <div>
-                <h1 className="title">Business Intelligence</h1>
-                <h3 className="subtitle">AGENCIA DE SOLUCIONES TECNOLOGICAS</h3>
+                <h1 className="title">DEV<b>360</b></h1>
+                <h3 className="subtitle">Agencia de soluciones tecnologicas</h3>
               </div>
             </p>
           </div>
@@ -60,15 +60,12 @@ class Header extends Component {
             <nav>
               <li><Link to="/">Inicio</Link></li>
               <li ><a onClick={this.handlerMenu}>Servicios</a></li>
-              <li><Link to="/">Portafolio</Link></li>
-              <li><Link to="/nosotros">Nosotros</Link></li>
-              <li><Link to="/blog">Blog</Link></li>
               <li><Link to="/contacto">Contacto</Link></li>
             </nav>
           </div>
           <div className="app-menu">
             <nav>
-              <ButtonBI name={"¿Tienes dudas?"}/>
+              <ButtonBI name={"654826781"}/>
             </nav>
           </div>
           <div  className="menu-mobile">

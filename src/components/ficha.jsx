@@ -15,7 +15,7 @@ class Ficha extends Component {
               Nosotros podemos ayudarte, tenemos una solución adaptada a tus necesidades. <br/>
               El principal objetivo de crear una web a medida, es facilitar la gestión de tu empresa donde tus trabajadores y clientes serán la base del proyecto.
             </p>
-            <ButtonBI name={"¿Necesitas una web?"}/>
+            <ButtonBI link={"/service/web"} name={"¿Necesitas una web?"}/>
           </div>
           <div className="ficha-image">
             <img src="/laptop.png" alt=""/>

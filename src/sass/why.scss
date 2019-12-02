@@ -4,7 +4,12 @@ $color-links: '#2f2c2c';
 $font-family: 'Varela Round';
 $padding: 2rem 5.5rem;
 $size-title: '1.5rem';
-
+.img-custom{
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  border-radius: 3%M
+}
 .Why {
   padding: $padding;
   display: flex;

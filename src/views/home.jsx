@@ -27,9 +27,7 @@ class Home extends Component {
           <FichaApp/>
           <FichaTienda/>
           <Tools/>
-          <Opiniones/>
           <Footer/>
-          <ChatBot/>
           <MenuMobile/>
         </section>
     );
