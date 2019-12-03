@@ -493,7 +493,7 @@ class AppCalculatePrice extends  Component{
     )
   }
   reset=()=>{
-    this.setState({step:1,count:0});
+    this.setState({step:0,count:0});
     
   }
   controller = () => {
