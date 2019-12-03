@@ -152,7 +152,6 @@ class TiendaOnline extends Component{
           <ServiceTech/>
           <Banner/>
           <Opiniones/>
-          <ChatBot/>
           <Footer/>
           <MenuMobile />
         </section>

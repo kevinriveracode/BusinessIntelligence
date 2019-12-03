@@ -59,7 +59,10 @@ class Header extends Component {
           <div className="primary-menu">
             <nav>
               <li><Link to="/">Inicio</Link></li>
-              <li ><a onClick={this.handlerMenu}>Servicios</a></li>
+              {/*<li ><a onClick={this.handlerMenu}>Servicios</a></li>*/}
+              <li><Link to={"/service/web"}>Diseño web</Link></li>
+              <li><Link to={'/service/ecommerce'}>E-commerce</Link></li>
+              <li><Link to={'/service/seo'}>SEO</Link></li>
               <li><Link to="/contacto">Contacto</Link></li>
             </nav>
           </div>

@@ -86,7 +86,6 @@ class DiseñoWeb extends Component{
                 })}
                 <Banner/>
                 <Opiniones/>
-                <ChatBot/>
                 <Footer/>
                 <MenuMobile/>
             </section>
