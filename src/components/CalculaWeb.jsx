@@ -29,7 +29,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/10paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/idea.svg" alt=""/>
                 <p>Solamente es una idea</p>
               </div>
               </a>
@@ -37,7 +37,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/10paso2.png" alt=""/>
+                <img src="/appCalculadoraWeb/boceto.svg" alt=""/>
                 <p>Boceto preparado</p>
               </div>
               </a>
@@ -45,7 +45,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/10paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/desarrollo.svg" alt=""/>
                 <p>Web en desarrollo</p>
               </div>
               </a>
@@ -53,7 +53,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/10paso4.png" alt=""/>
+                <img src="/appCalculadoraWeb/produccion.svg" alt=""/>
                 <p>Web lanzada</p>
               </div>
               </a>
@@ -72,7 +72,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/9paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/seo.svg" alt=""/>
                 <p>Si</p>
               </div>
               </a>
@@ -81,7 +81,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/9paso2.png" alt=""/>
+                <img src="/appCalculadoraWeb/no.svg" alt=""/>
                 <p>No</p>
               </div>
               </a>
@@ -90,7 +90,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/9paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/nose.svg" alt=""/>
                 <p>No lo sé</p>
               </div>
               </a>
@@ -108,7 +108,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/8paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/busqueda.svg" alt=""/>
                 <p>Si</p>
               </div>
               </a>
@@ -117,7 +117,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/8paso2.png" alt=""/>
+                <img src="/appCalculadoraWeb/no.svg" alt=""/>
                 <p>No</p>
               </div>
               </a>
@@ -126,7 +126,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/8paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/nose.svg" alt=""/>
                 <p>No lo sé</p>
               </div>
               </a>
@@ -144,7 +144,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/7paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/idiomas.svg" alt=""/>
                 <p>Si</p>
               </div>
               </a>
@@ -153,7 +153,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/7paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/no.svg" alt=""/>
                 <p>No</p>
               </div>
               </a>
@@ -162,7 +162,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/7paso2.png" alt=""/>
+                <img src="/appCalculadoraWeb/nose.svg" alt=""/>
                 <p>No lo sé</p>
               </div>
               </a>
@@ -180,7 +180,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/6paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/login.svg" alt=""/>
                 <p>Si</p>
               </div>
               </a>
@@ -189,7 +189,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/6paso2.png" alt=""/>
+                <img src="/appCalculadoraWeb/no.svg" alt=""/>
                 <p>No</p>
               </div>
               </a>
@@ -198,7 +198,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/6paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/nose.svg" alt=""/>
                 <p>No lo sé</p>
               </div>
               </a>
@@ -218,7 +218,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/5paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/erp.svg" alt=""/>
                 <p>Si</p>
               </div>
               </a>
@@ -227,7 +227,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/5paso2.png" alt=""/>
+                <img src="/appCalculadoraWeb/no.svg" alt=""/>
                 <p>No</p>
               </div>
               </a>
@@ -236,7 +236,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/5paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/nose.svg" alt=""/>
                 <p>No lo sé</p>
               </div>
               </a>
@@ -255,7 +255,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/4paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/payment.svg" alt=""/>
                 <p>Si</p>
               </div>
               </a>
@@ -264,7 +264,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/4paso2.png" alt=""/>
+                <img src="/appCalculadoraWeb/no.svg" alt=""/>
                 <p>No</p>
               </div>
               </a>
@@ -273,7 +273,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/4paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/nose.svg" alt=""/>
                 <p>No lo sé</p>
               </div>
               </a>
@@ -337,7 +337,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/2paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/plantilla.svg" alt=""/>
                 <p>Usar una plantilla</p>
               </div>
               </a>
@@ -346,7 +346,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/2paso2.png" alt=""/>
+                <img src="/appCalculadoraWeb/personalizado.svg" alt=""/>
                 <p>Diseño a medida</p>
               </div>
               </a>
@@ -356,7 +356,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/2paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/no.svg" alt=""/>
                 <p>No necesito diseño</p>
               </div>
               </a>
@@ -367,7 +367,7 @@ class AppCalculatePrice extends  Component{
                   this.controller_step();
                 }}>
               <div>
-                <img src="/appCalculadoraWeb/2paso4.png" alt=""/>
+                <img src="/appCalculadoraWeb/nose.svg" alt=""/>
                 <p>No lo sé</p>
               </div>
               </a>
@@ -385,7 +385,7 @@ class AppCalculatePrice extends  Component{
               this.controller_step();
             }}>
               <div>
-                <img src="/appCalculadoraWeb/paso1.png" alt=""/>
+                <img src="/appCalculadoraWeb/2paso1.svg" alt=""/>
                 <p>E-commerce / Tienda Online</p>
               </div>
               </a>
@@ -395,7 +395,7 @@ class AppCalculatePrice extends  Component{
               this.controller_step();
             }}>
             <div>
-              <img src="/appCalculadoraWeb/paso2.png" alt=""/>
+              <img src="/appCalculadoraWeb/2paso2.svg" alt=""/>
               <p>Web con blog</p>
             </div>
             </a>
@@ -405,7 +405,7 @@ class AppCalculatePrice extends  Component{
               this.controller_step();
             }}>
               <div>
-                <img src="/appCalculadoraWeb/paso3.png" alt=""/>
+                <img src="/appCalculadoraWeb/2paso3.svg" alt=""/>
                 <p>Web para empresa</p>
               </div>
               </a>
@@ -415,7 +415,7 @@ class AppCalculatePrice extends  Component{
               this.controller_step();
             }}>
               <div>
-                <img src="/appCalculadoraWeb/paso4.png" alt=""/>
+                <img src="/appCalculadoraWeb/2paso4.svg" alt=""/>
                 <p>Web a medida</p>
               </div>
               </a>
