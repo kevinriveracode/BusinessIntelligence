@@ -21,10 +21,7 @@ class ServiceTechnology extends Component{
             <p>
               {this.props.description}
             </p>
-            <h5><b>Caracteristicas principales del CMS:</b></h5>
-            <ul>
 
-            </ul>
           </div>
         </section>
     )

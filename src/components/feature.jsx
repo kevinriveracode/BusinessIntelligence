@@ -7,20 +7,15 @@ class Feature extends Component {
     return (
         <section className="Feature">
           <div className="feature-image">
-            <img src="/todo.svg" alt=""/>
+            <img className={"img-responsive-35"} src="/shop/ecommerce2.png" alt=""/>
           </div>
           <div className="feature-text">
             <p>
-              <h4>Crece y evoluciona</h4>
-              <h2>Todo lo que necesitas para vender en internet</h2>
-              <p>Para crear grandes cosas, tienes que dar primero pequeños
-                pasos. Disfruta de los beneficios de contar con una plataforma
-                que hace que tu tienda online destaque. <br/>Los packs de tiendas
-                online de MyWebsite eCommerce ayudan a que tu negocio crezca y
-                evolucione, e
-                incluye todas las herramientas que necesitas para tener en
-                éxito.</p>
-              <ButtonBI name={"Adquiere ya tu ecommerce y empieza a vender"}/>
+              <h4>{this.props.slogan}</h4>
+              <h2>{this.props.title}</h2>
+              <p>{this.props.descripcion}</p>
+
+              <ButtonBI name={this.props.button}/>
             </p>
           </div>
         </section>

@@ -46,7 +46,7 @@ class Footer extends Component {
           </footer>
           <footer className="copyright">
             <div>
-              <h4>© 2019 Business Intelligence Europe. Todos los derechos reservados.</h4>
+              <h4> <b> © 2019DEV360 </b> Europe. Todos los derechos reservados.</h4>
             </div>
           </footer>
         </React.Fragment>

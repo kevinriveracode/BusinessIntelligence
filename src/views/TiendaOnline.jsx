@@ -56,20 +56,20 @@ class TiendaOnline extends Component{
           title:'Mil maneras de atraer clientes',
           description:'Tú decides si quieres vender un millón de productos o si por el contrario, decides especializarte en solo unos pocos. Añade variaciones como tamaño y color y descripciones que inciten a comprar.\n' +
               'Cuando quieras añadir otro producto, simplemente carga los detalles online y estará listo para tus clientes en solo unos minutos.',
-          img:'/diseño.jpg'
+          img:'/shop/ecommerce-products.png'
         },
         {
           slogan: 'Aplicación móvil',
           title: 'Gestiona tu tienda desde cualquier lugar',
           description: 'Añade y modifica los datos de tus productos directamente desde tu smartphone, escanea el código de barras, haz una foto, añade una descripción y tu producto estará online.\n' +
               'Lleva un seguimiento y registro de tus ventas, además de mantener tus finanzas a la vista.',
-          img:'/appShop.svg'
+          img:'/shop/gestion.png'
         },
         {
           slogan:'Opciones de pago flexibles',
           title:'Haz que te lluevan pedidos',
           description:'El hecho de ofrecer o no los métodos de pago adecuados puede ser decisivo para tus clientes a la hora de comprar o no en tu tienda. Además de las opciones tradicionales como Paypal o tarjeta de crédito, los usuarios pueden escoger entre diferentes opciones de pago según su localización y su mercado. Crea confianza y atrae más clientes.',
-          img:'/pedidos.svg'
+          img:'/shop/payment.png'
         }
       ],
       tecnologias:[
@@ -131,9 +131,12 @@ class TiendaOnline extends Component{
     return(
         <section>
           <Header/>
-          <ServiceWall category="Diseño de tiendas online" title="Nos especializamos en el diseño de tiendas online que venden, optimizando la conversión y maximizando los ingresos." features={data}/>
+          <ServiceWall image="/shop/ecommerce3.png" category="Diseño de tiendas online" title="Nos especializamos en el diseño de tiendas online que venden, optimizando la conversión y maximizando los ingresos." features={data}/>
           <TitleSection title={'Tu escaparate al mundo'} subtitle={'Abre un mundo de posibilidades en minutos.'}/>
-          <Feature/>
+          <Feature slogan={"Es momento de expandirse"} title={"Tiendas All In One"} descripcion={"Sabemos que son muchas las dudas a la hora de montar una tienda en linea y muchas veces " +
+          "el miedo a lo desconocido nos impide poner en marcha aquellos proyectos que queremos.\n" +""+
+          "En DEV360 hemos sabido reconocer esta problematica y hemos decidido crear una solucion\n" +
+          "All In One satisfacer todas las necesidades que nos surgen a la hora de montar una tienda online."} button={"¿Necesitas vender?"}/>
           <ServiceHowHave items={this.state.howHave} section="DISEÑO DE TIENDAS ONLINE" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS TIENDAS ONLINE QUE DISEÑAMOS" />
           <FeatureReverse imagen={this.state.advantages[0].img} slogan={this.state.advantages[0].slogan} titulo={this.state.advantages[0].title} descripcion={this.state.advantages[0].description} pos={''}/>
           <FeatureReverse imagen={this.state.advantages[1].img} slogan={this.state.advantages[1].slogan} titulo={this.state.advantages[1].title} descripcion={this.state.advantages[1].description}  pos={'start'}/>
@@ -151,7 +154,6 @@ class TiendaOnline extends Component{
           <TitleSection title="Una tienda única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
           <ServiceTech/>
           <Banner/>
-          <Opiniones/>
           <Footer/>
           <MenuMobile />
         </section>
