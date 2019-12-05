@@ -1,0 +1,17 @@
+.ContainerPack{
+  display: flex;
+  padding: 0 5rem 0 5rem;
+  justify-content: space-evenly;
+}
+.no-list{
+  list-style: none;
+  text-decoration: none;
+}
+.pack{
+  display: flex;
+  flex-direction: column;
+  max-width: 15rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 3px;
+}

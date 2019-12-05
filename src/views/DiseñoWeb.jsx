@@ -91,6 +91,7 @@ class DiseñoWeb extends Component{
                 {/*  return(<ServiceTechnology image={tool.image} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)*/}
                 {/*})}*/}
                 <Banner/>
+                <TitleSection title="Selecciona el pack que mas se adapte a tus necesidades" subtitle=""/>
                 <AdapterPack/>
                 <Opiniones/>
                 <Footer/>
