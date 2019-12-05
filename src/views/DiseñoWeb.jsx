@@ -80,7 +80,7 @@ class DiseñoWeb extends Component{
                 <ServiceWall image="/web/wallweb.png" category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red." features={[]} />
                 <TitleSection title="Diseños web exclusivos" subtitle="Páginas Web con diseño exclusivo para pymes, autónomos y emprendedores"/>
                 <Feature slogan={"Desarrollo y diseño web"} title={"Tu pagina web es tu imagen de cara al mundo"} descripcion={"Creamos páginas web con un diseño unico y exclusivo que te ayudara" +
-                "a diferenciarte de la competencia. Creamos paginas que se adapten a todos los dispositivos, móvil incluido, y funcionen perfectamente gracias al uso de las ultimas teconlogias y ultimos estandares en programación web." +
+                " a diferenciarte de la competencia. Creamos paginas que se adapten a todos los dispositivos, móvil incluido, y funcionen perfectamente gracias al uso de las ultimas teconlogias y ultimos estandares en programación web." +
                 "Tendras una web con personalidad, con mensaje y coherente a tu estrategia de negocio"} button={"¿Necesitas vender?"}/>
                 <ServiceHowHave items={this.state.howHave} section="DISEÑO DE PAGINAS WEB" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS PAGINAS WEB QUE DISEÑAMOS"/>
                 {this.state.tecnologias.map((tool)=> {
