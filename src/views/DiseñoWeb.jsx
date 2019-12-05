@@ -18,6 +18,7 @@ import ServiceTechnology from '../components/ServiceTechnology';
 import MenuMobile from '../components/menu-mobile';
 import Feature from '../components/feature';
 import TitleSection from '../components/title-section';
+import AdapterPack from '../components/adapterPack';
 class DiseñoWeb extends Component{
   constructor(props){
     super(props);
@@ -90,6 +91,7 @@ class DiseñoWeb extends Component{
                 {/*  return(<ServiceTechnology image={tool.image} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)*/}
                 {/*})}*/}
                 <Banner/>
+                <AdapterPack/>
                 <Opiniones/>
                 <Footer/>
                 <MenuMobile/>
