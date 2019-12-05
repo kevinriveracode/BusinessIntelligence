@@ -45,36 +45,38 @@ class Header extends Component {
     };
     return (
         <header id="HeaderNav" className="Header">
-          <div className="container-logo">
-            <p className="reference-logo u-flex" onClick={this.goToHome}>
-              <div>
-                <img className={"logo"} src="/logo.svg" alt=""/>
-              </div>
-              <div>
-                <h1 className="title">DEV<b>360</b></h1>
-                <h3 className="subtitle">Agencia de soluciones tecnologicas</h3>
-              </div>
-            </p>
-          </div>
-          <div className="primary-menu">
-            <nav>
-              <li><Link to="/">Inicio</Link></li>
-              {/*<li ><a onClick={this.handlerMenu}>Servicios</a></li>*/}
-              <li><Link to={"/service/web"}>Diseño web</Link></li>
-              <li><Link to={'/service/ecommerce'}>E-commerce</Link></li>
-              <li><Link to={'/service/seo'}>SEO</Link></li>
-              <li><Link to="/contacto">Contacto</Link></li>
-            </nav>
-          </div>
-          <div className="app-menu">
-            <nav>
-              <ButtonBI name={"¿Empezamos?"}/>
-            </nav>
-          </div>
-          <div  className="menu-mobile">
-            <img onClick={this.showMobileMenu} src="/svg/menu.svg" alt=""/>
-          </div>
-          <Menu/>
+         <div className="menu">
+           <div className="container-logo">
+             <p className="reference-logo u-flex" onClick={this.goToHome}>
+               <div>
+                 <img className={"logo"} src="/logo.svg" alt=""/>
+               </div>
+               <div>
+                 <h1 className="title">DEV<b>360</b></h1>
+                 <h3 className="subtitle">Agencia de soluciones tecnologicas</h3>
+               </div>
+             </p>
+           </div>
+           <div className="primary-menu">
+             <nav>
+               <li><Link to="/">Inicio</Link></li>
+               {/*<li ><a onClick={this.handlerMenu}>Servicios</a></li>*/}
+               <li><Link to={"/service/web"}>Diseño web</Link></li>
+               <li><Link to={'/service/ecommerce'}>E-commerce</Link></li>
+               <li><Link to={'/service/seo'}>SEO</Link></li>
+               <li><Link to="/contacto">Contacto</Link></li>
+             </nav>
+           </div>
+           <div className="app-menu">
+             <nav>
+               <ButtonBI name={"¿Empezamos?"}/>
+             </nav>
+           </div>
+           <div  className="menu-mobile">
+             <img onClick={this.showMobileMenu} src="/svg/menu.svg" alt=""/>
+           </div>
+           <Menu/>
+         </div>
         </header>
     );
   }

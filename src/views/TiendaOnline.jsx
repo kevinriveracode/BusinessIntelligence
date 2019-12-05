@@ -147,10 +147,10 @@ class TiendaOnline extends Component{
             <ItemInfo image={'/recompensed/002-newsletter.svg'} name={'Herramientas de newsletter'} description={'La herramienta de newsletter integrada hace aún más fácil organizar campañas y estar en contacto con tus clientes.'}/>
             <ItemInfo image={'/recompensed/003-coupon.svg'} name={'Cupones'} description={'Deshazte de las existencias más antiguas fácilmente ofreciendo cupones para venderlas más rápidamente.'}/>
           </div>
-          <TitleSection title={'Atrevete a dar el paso'} subtitle={'Escoge entre multiples opciones.'}/>
-          {this.state.tecnologias.map((tool)=> {
-            return(<ServiceTechnology image={`/brands/${tool.image}`} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
-          })}
+          {/*<TitleSection title={'Atrevete a dar el paso'} subtitle={'Escoge entre multiples opciones.'}/>*/}
+          {/*{this.state.tecnologias.map((tool)=> {*/}
+          {/*  return(<ServiceTechnology image={`/brands/${tool.image}`} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)*/}
+          {/*})}*/}
           <TitleSection title="Una tienda única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
           <ServiceTech/>
           <Banner/>

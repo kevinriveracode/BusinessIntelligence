@@ -24,22 +24,22 @@ class DiseñoWeb extends Component{
     this.state = {
       howHave:[
         {
-          image:'/landingweb/web-medida.svg',
+          image:'/webiconos/amedida.svg',
           title:'Diseño a medida',
           description:'Parte del éxito es, sin duda, su diseño, construido en exclusiva para un público y una idea.'
         },
         {
-          image:'/landingweb/responsive.svg',
+          image:'/webiconos/responsive.svg',
           title:'Responsive 100%',
           description:'Diseñadas para mejorar la usabilidad y la experiencia del usuario en cualquier dispositivo.'
         },
         {
-          image:'/landingweb/autogestion.svg',
+          image:'/webiconos/gestion.svg',
           title:'Autogestión',
           description:'Proyectos que permiten un crecimiento constante y a la medida de las necesidades'
         },
         {
-          image:'/landingweb/crecimiento.svg',
+          image:'/webiconos/crecimiento.svg',
           title:'Crecimiento',
           description:'Desarrollos potencialmente exitosos, creados para lo que realmente importa: las ventas.'
         },
@@ -74,18 +74,21 @@ class DiseñoWeb extends Component{
     }
   }
     render(){
+        let feat =['Abre tus puertas al mundo y no te quedes coló como un negocio local.',
+          'Consigue que tu negocio abra 24 horas, 7 dias a la semana y 365 dias al año.',
+          'Fideliza a tus clientes con tu catálogo online, compras fuera de horario y envíos.']
         return(
             <section>
                 <Header/>
-                <ServiceWall image="/web/wallweb.png" category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red." features={[]} />
+                <ServiceWall features={feat} image="/web/wallweb.png" category="Diseño de paginas web" title="Hoy en día si quieres ver crecer tu negocio, tanto si empiezas como si ya estás consolidado, necesitas una página web que te sirva como escaparate al mundo y punto de entrada de clientes desde la red." />
                 <TitleSection title="Diseños web exclusivos" subtitle="Páginas Web con diseño exclusivo para pymes, autónomos y emprendedores"/>
                 <Feature slogan={"Desarrollo y diseño web"} title={"Tu pagina web es tu imagen de cara al mundo"} descripcion={"Creamos páginas web con un diseño unico y exclusivo que te ayudara" +
                 " a diferenciarte de la competencia. Creamos paginas que se adapten a todos los dispositivos, móvil incluido, y funcionen perfectamente gracias al uso de las ultimas teconlogias y ultimos estandares en programación web." +
                 "Tendras una web con personalidad, con mensaje y coherente a tu estrategia de negocio"} button={"¿Necesitas vender?"}/>
                 <ServiceHowHave items={this.state.howHave} section="DISEÑO DE PAGINAS WEB" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS PAGINAS WEB QUE DISEÑAMOS"/>
-                {this.state.tecnologias.map((tool)=> {
-                  return(<ServiceTechnology image={tool.image} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)
-                })}
+                {/*{this.state.tecnologias.map((tool)=> {*/}
+                {/*  return(<ServiceTechnology image={tool.image} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)*/}
+                {/*})}*/}
                 <Banner/>
                 <Opiniones/>
                 <Footer/>

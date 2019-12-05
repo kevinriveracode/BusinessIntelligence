@@ -7,16 +7,22 @@ $size-title: '1.5rem';
 .Home{
   overflow-x: hidden;
 }
+
 .Header{
   display: flex;
   height: $height-Header;
   width: 100%;
   justify-content: space-around;
   padding: $padding;
-  background-color: #2095f2;
+  background-color: #ffffff;
   transition: 1s ease;
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 3rem;
+  }
   .container-logo{
-    width: 330px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -28,9 +34,9 @@ $size-title: '1.5rem';
         font-size: 1.5rem;
         font-family: $font-family;
         font-weight: 800;
-        color:white;;
+        color:black;
       }
-      h3{margin: 0vh 0vw;font-size:0.7rem;font-family: $font-family;color: white;font-weight: 700;}
+      h3{margin: 0vh 0vw;font-size:0.7rem;font-family: $font-family;color: black;font-weight: 700;}
     }
   }
   .menu-mobile{
@@ -60,7 +66,7 @@ $size-title: '1.5rem';
           display: flex;
           align-items: center;
           font-weight: 300;
-          color: white;
+          color: black;
         }
         img{
           width: 1.6em;
@@ -95,6 +101,9 @@ $size-title: '1.5rem';
     justify-content: flex-start;
     padding: 0vh 0vw;
     align-items: center;
+    .menu{
+      padding: 0px;
+    }
     .container-logo{
       padding-left: 1rem;
       width: 80vw;

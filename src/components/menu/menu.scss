@@ -8,9 +8,7 @@ $size-title: '1.5rem';
   width: 15%;
 }
 .Menu{
-  visibility: hidden;
-  position: absolute;
-  display: flex;
+  display: none;
   background-color: white;
   min-width: 70vw;
   top: 17vh;

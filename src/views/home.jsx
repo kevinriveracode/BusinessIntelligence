@@ -23,9 +23,9 @@ class Home extends Component {
           <HowWork/>
           <Banner/>
           <Why/>
-          <Ficha/>
-          <FichaApp/>
-          <FichaTienda/>
+          {/*<Ficha/>*/}
+          {/*<FichaApp/>*/}
+          {/*<FichaTienda/>*/}
           <Tools/>
           <Footer/>
           <MenuMobile/>
