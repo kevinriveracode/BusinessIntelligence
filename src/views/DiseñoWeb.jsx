@@ -85,7 +85,7 @@ class DiseñoWeb extends Component{
                 <TitleSection title="Diseños web exclusivos" subtitle="Páginas Web con diseño exclusivo para pymes, autónomos y emprendedores"/>
                 <Feature slogan={"Desarrollo y diseño web"} title={"Tu pagina web es tu imagen de cara al mundo"} descripcion={"Creamos páginas web con un diseño unico y exclusivo que te ayudara" +
                 " a diferenciarte de la competencia. Creamos paginas que se adapten a todos los dispositivos, móvil incluido, y funcionen perfectamente gracias al uso de las ultimas teconlogias y ultimos estandares en programación web." +
-                "Tendras una web con personalidad, con mensaje y coherente a tu estrategia de negocio"} button={"¿Necesitas vender?"}/>
+                "Tendras una web con personalidad, con mensaje y coherente a tu estrategia de negocio"} button={"¿Necesitas una web?"}/>
                 <ServiceHowHave items={this.state.howHave} section="DISEÑO DE PAGINAS WEB" sectiondes="CARACTERÍSTICAS PRINCIPALES DE LAS PAGINAS WEB QUE DISEÑAMOS"/>
                 {/*{this.state.tecnologias.map((tool)=> {*/}
                 {/*  return(<ServiceTechnology image={tool.image} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)*/}

@@ -151,9 +151,9 @@ class TiendaOnline extends Component{
           {/*{this.state.tecnologias.map((tool)=> {*/}
           {/*  return(<ServiceTechnology image={`/brands/${tool.image}`} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)*/}
           {/*})}*/}
+          <Banner/>
           <TitleSection title="Una tienda única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
           <ServiceTech/>
-          <Banner/>
           <Footer/>
           <MenuMobile />
         </section>

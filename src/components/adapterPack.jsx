@@ -12,7 +12,7 @@ class Pack extends Component{
             <p>{this.props.data.descripcion}</p>
             <ul className="no-list">
               {this.props.data.features.map((feature,index)=>{
-                return(<li key={index}>{feature}</li>)
+                return(<li key={index}><img className={'tick'} src={"/tick.svg"}></img>{feature}</li>)
               })}
             </ul>
             {/*<h4>{this.props.data.price}</h4>*/}
@@ -30,7 +30,7 @@ class AdapterPack extends Component{
       packsWeb:[
         {
           name:'Pack Tokio',
-          img:'',
+          img:'localhost:3000/web/tokio.svg',
           features:[
               'Diseño gráfico original',
               'Secciones ilimitadas',
