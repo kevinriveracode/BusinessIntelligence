@@ -6,9 +6,12 @@ class Pack extends Component{
   render(){
     return(
         <section>
-          <div className="pack">
-            <h2>{this.props.data.name}</h2>
-            <img src={this.props.data.img} />
+          <div className="pack"> 
+            <div className="u-flex jc-between">
+              <h2>{this.props.data.name}</h2>
+              <span>{this.props.data.price}€</span>
+            </div>
+            <img className="Packimg" src={this.props.data.img} />
             <p>{this.props.data.descripcion}</p>
             <ul className="no-list">
               {this.props.data.features.map((feature,index)=>{
@@ -16,6 +19,12 @@ class Pack extends Component{
               })}
             </ul>
             {/*<h4>{this.props.data.price}</h4>*/}
+            {/*
+              Todo: Seria interesante en un futuro poder maquetar un boton para
+              redireccionar a una demos con las carecteristicas que ofrecemos.
+              //Revisar la oferta de marketing para vender varias cosas
+              y manipular al cliente para que compre el mas caro.
+            */}
             <ButtonBI name="Comprar"></ButtonBI>
           </div>
         </section>
@@ -30,7 +39,7 @@ class AdapterPack extends Component{
       packsWeb:[
         {
           name:'Pack Tokio',
-          img:'localhost:3000/web/tokio.svg',
+          img:'/web/svg/tokio.svg',
           features:[
               'Diseño gráfico original',
               'Secciones ilimitadas',
@@ -46,7 +55,7 @@ class AdapterPack extends Component{
         },
         {
           name:'Pack Moscu',
-          img:'',
+          img:'/web/svg/moscu.svg',
           features:[
             'Diseño gráfico original',
             'Secciones ilimitadas',
@@ -62,25 +71,8 @@ class AdapterPack extends Component{
           link:''
         },
         {
-          name:'Pack Berlin',
-          img:'',
-          features:[
-              'Todo lo anterior MAS!',
-              'Experiencia de usuario plus',
-              'Slogans + mensajes principales',
-              'Efectos y animaciones',
-              'Adapatación multi-idioma (3)',
-              'Meta-etiquetado logico',
-              'Alta en Google analityc',
-              'Alta en Google Maps',
-              '30 fotos premium'
-          ],
-          price: 1100,
-          link:''
-        },
-        {
           name:'Pack California',
-          img:'',
+          img:'/web/svg/california.svg',
           features:[
               'Los equipos compiten ',
               'Diferentes propuestas de diseño web',

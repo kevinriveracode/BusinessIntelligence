@@ -19,6 +19,7 @@ import MenuMobile from '../components/menu-mobile';
 import Feature from '../components/feature';
 import TitleSection from '../components/title-section';
 import AdapterPack from '../components/adapterPack';
+import ServiceTech from '../components/ServiceTech';
 class DiseñoWeb extends Component{
   constructor(props){
     super(props);
@@ -93,6 +94,8 @@ class DiseñoWeb extends Component{
                 <Banner/>
                 <TitleSection title="Selecciona el pack que mas se adapte a tus necesidades" subtitle=""/>
                 <AdapterPack/>
+                <TitleSection title="Una Web Única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
+                <ServiceTech/>
                 <Opiniones/>
                 <Footer/>
                 <MenuMobile/>
