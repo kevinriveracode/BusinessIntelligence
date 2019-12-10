@@ -28,6 +28,7 @@ class AdapterPack extends Component{
   constructor(props){
     super(props)
     this.state = {
+      packToShow: [],
       packsEcommerce:[
         {
           name:'Pack Shanghái',
@@ -67,7 +68,7 @@ class AdapterPack extends Component{
           link:''
         },
         {
-          name:'Desarrollo a medida',
+          name:'A medida',
           img:'/web/svg/medida.svg',
           features:[
            'Portales de anuncio',
@@ -135,13 +136,19 @@ class AdapterPack extends Component{
         }
       ]
     }
+
   }
 
   render(){
+    let select;
+    if(this.props.info){
+      select = this.state.packsWeb
+    }else{
+      select = this.state.packsEcommerce
+    }
     return(
       <section className="ContainerPack h-70">
-
-        {this.state.packsWeb.map((pack,index)=>{
+        {select.map((pack,index)=>{
           return(<Pack key={index} data={pack}></Pack>)
         })}
       </section>

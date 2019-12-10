@@ -154,7 +154,7 @@ class TiendaOnline extends Component{
           {/*})}*/}
           <Banner/>
           <TitleSection title="Selecciona el pack que mas se adapte a tus necesidades" subtitle=""/>
-          <AdapterPack info={1}/>
+          <AdapterPack info={false}/>
           <TitleSection title="Una tienda única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
           <ServiceTech/>
           <Footer/>

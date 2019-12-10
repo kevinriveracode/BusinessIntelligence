@@ -93,7 +93,7 @@ class DiseñoWeb extends Component{
                 {/*})}*/}
                 <Banner/>
                 <TitleSection title="Selecciona el pack que mas se adapte a tus necesidades" subtitle=""/>
-                <AdapterPack/>
+                <AdapterPack info={true}/>
                 <TitleSection title="Una Web única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
                 <ServiceTech/>
                 <Opiniones/>
