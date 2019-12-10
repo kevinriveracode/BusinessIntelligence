@@ -8,6 +8,7 @@ import TiendaOnline from './views/TiendaOnline';
 import DiseñoWeb from './views/DiseñoWeb';
 import BackOffice  from './views/backoffice/backoffice';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Contacto from './views/contacto';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Route path='/service/ecommerce' exact component={TiendaOnline} />
         <Route path='/service/web' exact component={DiseñoWeb} />
         <Route path='/userpanel' exact component={BackOffice} />
+        <Route path='/contacto' exact component={Contacto} />
       </Switch>
     </BrowserRouter>,
     document.getElementById('root'));
