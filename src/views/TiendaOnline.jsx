@@ -22,6 +22,7 @@ import FeatureReverse from '../components/feature-reverse';
 import ServiceTech from '../components/ServiceTech';
 import '../sass/utils.scss';
 import ItemInfo from '../components/item-info';
+import AdapterPack from '../components/adapterPack';
 
 
 class TiendaOnline extends Component{
@@ -152,6 +153,8 @@ class TiendaOnline extends Component{
           {/*  return(<ServiceTechnology image={`/brands/${tool.image}`} name={tool.name} description={tool.description} features={tool.features} view={tool.view} />)*/}
           {/*})}*/}
           <Banner/>
+          <TitleSection title="Selecciona el pack que mas se adapte a tus necesidades" subtitle=""/>
+          <AdapterPack info={1}/>
           <TitleSection title="Una tienda única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
           <ServiceTech/>
           <Footer/>

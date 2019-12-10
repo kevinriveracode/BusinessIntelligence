@@ -19,6 +19,7 @@ import MenuMobile from '../components/menu-mobile';
 import Feature from '../components/feature';
 import TitleSection from '../components/title-section';
 import AdapterPack from '../components/adapterPack';
+import ServiceTech from '../components/ServiceTech';
 class DiseñoWeb extends Component{
   constructor(props){
     super(props);
@@ -77,7 +78,7 @@ class DiseñoWeb extends Component{
     render(){
         let feat =['Abre tus puertas al mundo y no te quedes coló como un negocio local.',
           'Consigue que tu negocio abra 24 horas, 7 dias a la semana y 365 dias al año.',
-          'Fideliza a tus clientes con tu catálogo online, compras fuera de horario y envíos.']
+         ]
         return(
             <section>
                 <Header/>
@@ -93,6 +94,8 @@ class DiseñoWeb extends Component{
                 <Banner/>
                 <TitleSection title="Selecciona el pack que mas se adapte a tus necesidades" subtitle=""/>
                 <AdapterPack/>
+                <TitleSection title="Una Web única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
+                <ServiceTech/>
                 <Opiniones/>
                 <Footer/>
                 <MenuMobile/>
