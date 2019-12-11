@@ -64,6 +64,9 @@ $size-title: '1.5rem';
   .ServiceWall{
     flex-direction: column;
     align-items: center;
+    ul{
+      padding: 0 1rem !important;
+    }
     .description{
       width: 100vw;
       h1{

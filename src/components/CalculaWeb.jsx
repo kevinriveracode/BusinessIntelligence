@@ -482,6 +482,17 @@ class AppCalculatePrice extends  Component{
     if(this.state.answerQuestions.questionNine === 3) this.setState({count: this.state.count + 35}); //nose
     return this.state.count;
   }
+  packViable = () => {
+    let isShop = this.state.answerQuestions.questionOne === 1;
+    if(isShop){
+      //Ecommerce
+      if (this.state.answerQuestions.questionTwo === 2){
+        return ''
+      }
+    }else{
+      //Web
+    }
+  }
   presupuestoFinal = () => {
     let total = this.calculate()
     return(

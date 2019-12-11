@@ -78,7 +78,7 @@ class DiseñoWeb extends Component{
     render(){
         let feat =['Abre tus puertas al mundo y no te quedes coló como un negocio local.',
           'Consigue que tu negocio abra 24 horas, 7 dias a la semana y 365 dias al año.',
-          'Fideliza a tus clientes con tu catálogo online, compras fuera de horario y envíos.']
+         ]
         return(
             <section>
                 <Header/>
@@ -93,8 +93,13 @@ class DiseñoWeb extends Component{
                 {/*})}*/}
                 <Banner/>
                 <TitleSection title="Selecciona el pack que mas se adapte a tus necesidades" subtitle=""/>
+<<<<<<< HEAD
                 <AdapterPack/>
                 <TitleSection title="Una Web Única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
+=======
+                <AdapterPack info={true}/>
+                <TitleSection title="Una Web única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
+>>>>>>> 6d09799177dcd4e97883acd0242499d2064f3509
                 <ServiceTech/>
                 <Opiniones/>
                 <Footer/>

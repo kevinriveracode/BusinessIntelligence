@@ -40,9 +40,7 @@ class Header extends Component {
     $('.Menu-Mobile').show();
   }
   render() {
-    window.onscroll = () => {
-      this.stickyMenu();
-    };
+
     return (
         <header id="HeaderNav" className="Header">
          <div className="menu">

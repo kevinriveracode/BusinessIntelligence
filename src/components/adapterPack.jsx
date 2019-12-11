@@ -6,6 +6,7 @@ class Pack extends Component{
   render(){
     return(
         <section>
+<<<<<<< HEAD
           <div className="pack"> 
             <div className="u-flex jc-between">
               <h2>{this.props.data.name}</h2>
@@ -13,12 +14,20 @@ class Pack extends Component{
             </div>
             <img className="Packimg" src={this.props.data.img} />
             <p>{this.props.data.descripcion}</p>
+=======
+          <div className="pack">
+            <div className="u-flex jc-between">
+              <h2 className="u-flex al-center"> <img className="img-pack" src={this.props.data.img} />{this.props.data.name}</h2>
+              <span>{this.props.data.price}€</span>
+            </div>
+>>>>>>> 6d09799177dcd4e97883acd0242499d2064f3509
             <ul className="no-list">
               {this.props.data.features.map((feature,index)=>{
                 return(<li key={index}><img className={'tick'} src={"/tick.svg"}></img>{feature}</li>)
               })}
             </ul>
             {/*<h4>{this.props.data.price}</h4>*/}
+<<<<<<< HEAD
             {/*
               Todo: Seria interesante en un futuro poder maquetar un boton para
               redireccionar a una demos con las carecteristicas que ofrecemos.
@@ -26,6 +35,9 @@ class Pack extends Component{
               y manipular al cliente para que compre el mas caro.
             */}
             <ButtonBI name="Comprar"></ButtonBI>
+=======
+            <ButtonBI name="Más Info +"></ButtonBI>
+>>>>>>> 6d09799177dcd4e97883acd0242499d2064f3509
           </div>
         </section>
     )
@@ -36,6 +48,62 @@ class AdapterPack extends Component{
   constructor(props){
     super(props)
     this.state = {
+      packToShow: [],
+      packsEcommerce:[
+        {
+          name:'Pack Shanghái',
+          img:'/web/svg/shanghai.svg',
+          features:[
+            'Productos ilimitados',
+            'Panel de gestión y precios',
+            'Paypal, targeta y transferencia.',
+            'Notificaciones automáticas',
+            'Programación en WordPress',
+            'Diseño grafico original',
+            'Secciones ilimitadas',
+            'Diseño de slogans',
+            'Formación'
+          ],
+          descripcion:'',
+          price: 1950,
+          link:''
+        },
+        {
+          name:'Pack Bangok',
+          img:'/web/svg/bangok.svg',
+          features:[
+           'Productos ilimitados',
+           'Paypal, targeta y transferencia',
+           'Notificaciones automáticas',
+           'Multi-idioma(Hasta 5)',
+           'Programación Wordpress o Prestashop',
+           'Logistica y envios',
+           'Estrategia de comunicación',
+           'Plan de lanzamiento(Adwords y Facebook)',
+           'Secciones ilimitadas',
+           'Web móvil (responsive)'
+          ],
+          descripcion:'',
+          price: 1950,
+          link:''
+        },
+        {
+          name:'A medida',
+          img:'/web/svg/medida.svg',
+          features:[
+           'Portales de anuncio',
+           'Redes sociales',
+           'Subastas',
+           'Plataformas tecnolǵicas',
+           'Funciones especiales',
+           'Software personalizado',
+           'Creación de plugins'
+          ],
+          descripcion:'',
+          price: 1950,
+          link:''
+        }
+      ],
       packsWeb:[
         {
           name:'Pack Tokio',
@@ -50,6 +118,7 @@ class AdapterPack extends Component{
               'Panel de administración',
               'Formación'
           ],
+          descripcion:'',
           price: 450,
           link:''
         },
@@ -87,11 +156,19 @@ class AdapterPack extends Component{
         }
       ]
     }
+
   }
+
   render(){
+    let select;
+    if(this.props.info){
+      select = this.state.packsWeb
+    }else{
+      select = this.state.packsEcommerce
+    }
     return(
       <section className="ContainerPack h-70">
-        {this.state.packsWeb.map((pack,index)=>{
+        {select.map((pack,index)=>{
           return(<Pack key={index} data={pack}></Pack>)
         })}
       </section>
