@@ -6,38 +6,18 @@ class Pack extends Component{
   render(){
     return(
         <section>
-<<<<<<< HEAD
-          <div className="pack"> 
-            <div className="u-flex jc-between">
-              <h2>{this.props.data.name}</h2>
-              <span>{this.props.data.price}€</span>
-            </div>
-            <img className="Packimg" src={this.props.data.img} />
-            <p>{this.props.data.descripcion}</p>
-=======
           <div className="pack">
             <div className="u-flex jc-between">
               <h2 className="u-flex al-center"> <img className="img-pack" src={this.props.data.img} />{this.props.data.name}</h2>
               <span>{this.props.data.price}€</span>
             </div>
->>>>>>> 6d09799177dcd4e97883acd0242499d2064f3509
             <ul className="no-list">
               {this.props.data.features.map((feature,index)=>{
                 return(<li key={index}><img className={'tick'} src={"/tick.svg"}></img>{feature}</li>)
               })}
             </ul>
             {/*<h4>{this.props.data.price}</h4>*/}
-<<<<<<< HEAD
-            {/*
-              Todo: Seria interesante en un futuro poder maquetar un boton para
-              redireccionar a una demos con las carecteristicas que ofrecemos.
-              //Revisar la oferta de marketing para vender varias cosas
-              y manipular al cliente para que compre el mas caro.
-            */}
-            <ButtonBI name="Comprar"></ButtonBI>
-=======
             <ButtonBI name="Más Info +"></ButtonBI>
->>>>>>> 6d09799177dcd4e97883acd0242499d2064f3509
           </div>
         </section>
     )
