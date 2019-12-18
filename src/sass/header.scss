@@ -10,12 +10,14 @@ $size-title: '1.5rem';
 
 .Header{
   display: flex;
-  height: $height-Header;
   width: 100%;
-  justify-content: space-around;
   padding: $padding;
-  background-color: #ffffff;
   transition: 1s ease;
+  background-color: rgb(66, 133, 244);
+    box-shadow: rgba(0, 0, 0, 0.28) 0px -8px 8px;
+    max-height: 64px;
+    justify-content: flex-start;
+    align-items: flex-end;
   .menu{
     display: flex;
     justify-content: space-between;
@@ -26,17 +28,19 @@ $size-title: '1.5rem';
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 6rem;
+   
     cursor:pointer;
     p{
       h1 {
         margin: 0vh 0vw;
         font-size: 1.5rem;
-        font-family: $font-family;
+        font-family: 'Google Sans Display','Heebo',Arial,sans-serif;
+        font-weight: lighter;
         font-weight: 800;
-        color:black;
+        color:#ffffff;
       }
-      h3{margin: 0vh 0vw;font-size:0.7rem;font-family: $font-family;color: black;font-weight: 700;}
+      h3{margin: 0vh 0vw;font-size:0.7rem;font-family: 'Google Sans Display','Heebo',Arial,sans-serif;
+        font-weight: lighter;;color: #ffffff;font-weight: 700;display: none}
     }
   }
   .menu-mobile{
@@ -60,13 +64,15 @@ $size-title: '1.5rem';
       li{
         a{
           text-decoration: none;
-          font-family: $font-family;
+          font-family: 'Google Sans Display','Heebo',Arial,sans-serif;
+          font-weight: lighter;
           padding: 0vh 1rem;
           font-size: 1.2em;
           display: flex;
           align-items: center;
           font-weight: 300;
-          color: black;
+          font-size: 15px;
+          color: #ffffff;
         }
         img{
           width: 1.6em;
@@ -91,6 +97,7 @@ $size-title: '1.5rem';
 //}
 .logo{
   width: 2.3rem;
+  display: none;
 }
 .u-flex{
   display: flex;

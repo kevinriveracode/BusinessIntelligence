@@ -55,21 +55,27 @@ $size-title: '1.5rem';
   margin-right: 5px;
 }
 .input-default{
-    width: 80%;
     padding: .5rem;
-    border-radius: 3px;
     border: 1px solid #e6e6e6;
     margin: .5em .0em;
+    font-size: 14px;
+    height: 20px;
+    padding: 7px 11px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 28px;
+    margin: 1px 1px 0 1px;
 }
 .font-title-2{
-  font-family: $font-family;
+  font-family: "Google Sans Display", "Heebo", Arial, "sans-serif";
   font-size: 1.5em;
   margin-bottom: 0;
   font-weight: 300;
 }
 .font-description{
   margin-top: 0px;
-  font-family: $font-family;
+  font-family: "Google Sans Display", "Heebo", Arial, "sans-serif";
   font-size: .9em;
 }
 .w-50{
@@ -125,4 +131,73 @@ $size-title: '1.5rem';
 }
 .contact-parrafo{
   font-size: 1.2rem;
+}
+.box-container{
+   flex-shrink: 0;
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    min-height: 0;
+    width: 45%;
+}
+.formulario-contacto{
+  padding: 48px 40px 36px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.button-header{
+  background: #1479fb;
+  border: 1px solid #1479fb;
+  border-radius: 6px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  height: 40px;
+  letter-spacing: normal;
+  overflow: hidden;
+  padding: 0 12px;
+  text-overflow: ellipsis;
+  text-shadow: none;
+  width: 100%;
+}
+.btn-1{
+  border: 2px solid #448aff;
+    border-radius: 4px;
+    color: #448aff;
+    font-size: 16px;
+    height: auto;
+    line-height: 16px;
+    left: -50%;
+    margin: auto;
+    background: none !important;
+}
+.btn-pack{
+  background: #1479fb;
+    border: 1px solid #1479fb;
+    border-radius: 6px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Google Sans Display", "Heebo", Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: normal;
+    height: 40px;
+    letter-spacing: normal;
+    overflow: hidden;
+    padding: 0 12px;
+    text-overflow: ellipsis;
+    text-shadow: none;
+    font-weight: 800;
+}
+
+//size
+
+.u-w100{
+  width: 100vw;
 }

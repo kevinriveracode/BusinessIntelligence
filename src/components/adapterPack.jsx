@@ -17,7 +17,9 @@ class Pack extends Component{
               })}
             </ul>
             {/*<h4>{this.props.data.price}</h4>*/}
-            <ButtonBI name="Más Info +"></ButtonBI>
+            <button className="btn-pack">
+              Añadir al carrito
+            </button>
           </div>
         </section>
     )

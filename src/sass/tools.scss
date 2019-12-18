@@ -1,7 +1,7 @@
 $height-Header: '110px';
 $background-Header: '#ffffff';
 $color-links: '#2f2c2c';
-$font-family: 'Varela Round';
+$font-family: "Google Sans Display", "Heebo", Arial, "sans-serif";
 $padding: 1rem 5.5rem;
 $size-title: '1.5rem';
 
@@ -16,6 +16,7 @@ $size-title: '1.5rem';
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin:0px !important;
     .box-tool {
       display: flex;
       align-items: center;
@@ -44,7 +45,7 @@ $size-title: '1.5rem';
       font-size: 1.3rem;
       color: #404040;
       margin-bottom: 0px;
-      font-family: 'Varela Round';
+      font-family: "Google Sans Display", "Heebo", Arial, "sans-serif";
       text-align: center;
       font-weight: 300;
       padding: 0 15vw;

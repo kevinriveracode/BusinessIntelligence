@@ -4,6 +4,7 @@ import ButtonBI from '../components/button';
 import { Link } from 'react-router-dom'
 import Menu from '../components/menu/menu';
 import $ from 'jquery';
+import '../sass/utils.scss';
 class Header extends Component {
   constructor(props){
     super(props);
@@ -67,7 +68,7 @@ class Header extends Component {
            </div>
            <div className="app-menu">
              <nav>
-               <ButtonBI name={"¿Empezamos?"}/>
+               <button className="button-header">¿Empezamos?</button>
              </nav>
            </div>
            <div  className="menu-mobile">

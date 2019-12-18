@@ -96,7 +96,7 @@ class DiseñoWeb extends Component{
                 <AdapterPack info={true}/>
                 <TitleSection title="Una Web única" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
                 <ServiceTech/>
-                <Opiniones/>
+               
                 <Footer/>
                 <MenuMobile/>
             </section>

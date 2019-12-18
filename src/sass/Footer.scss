@@ -1,7 +1,7 @@
 $height-Header : '110px';
 $background-Header : '#ffffff';
 $color-links : '#2f2c2c';
-$font-family :  'Varela Round';
+$font-family: "Google Sans Display", "Heebo", Arial, "sans-serif";;
 $padding: 1rem 5.5rem;
 $size-title: '1.5rem';
 
@@ -27,8 +27,13 @@ $size-title: '1.5rem';
 .copyright{
   display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
   align-items: center;
-  background-color: #2B2B2B;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4489FC;
+    padding: .5rem 7vw;
   div{
     h4{
       color: white;

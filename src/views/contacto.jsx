@@ -12,30 +12,23 @@ class Contacto extends Component{
         <section>
           <Header/>
           <TitleSection title="Es momento de actuar" subtitle=""/>
-          <section className="u-flex h-100 content-box">
-            <div className="w-50">
-              <h2 className="contact-title">¿Comenzamos?</h2>
-              <p className="contact-parrafo">En <b>DEV360</b> queremos ayudarte desde el primer momento
-                Dejanos tu numero y nos ponemos en contacto contigo.</p>
-              <hr/>
-              <p>
-                C/ Plaza musico espi, Nº 10 | Valencia (España)
-              </p>
-            </div>
-            <div className="w-50 u-flex jc-center">
-              <form className="u-flex-col w-75" action="">
-                <span>Nombre:</span>
+          <section className="u-flex h-100 content-box ">
+            <div className="w-100 u-flex jc-center box-container">
+              <form className="u-flex-col w-75 formulario-contacto" action="">
+                <div className="u-flex">
                 <label htmlFor="">
-                  <input className="input-default" type="text" required/>
+                  <input placeholder="Nombre" className="input-default" type="text" required/>
                 </label>
-                <span>E-mail:</span>
                 <label htmlFor="">
-                  <input className="input-default" type="email" required/>
+                  <input placeholder="Apellido" className="input-default" type="email" required/>
                 </label>
-                <span>Telefono:</span>
-                <label htmlFor="">
-                  <input className="input-default" type="number" required/>
+                </div>
+                <div className="u-flex w-100">
+                <label htmlFor="" className="w-100">
+                  <input placeholder="Apellido" className="w-100 input-default" type="email" required/>
                 </label>
+                </div>
+                
                 <span>  Explicanos tu problema</span>
                 <label htmlFor="">
                   <textarea className="input-default" name="" id="" cols="30" rows="10"></textarea>
@@ -45,7 +38,6 @@ class Contacto extends Component{
           </section>
           <TitleSection title="Una Solución Completa" subtitle="Hemos pensado para que tú no tengas que pensar en nada"/>
           <ServiceTech/>
-          <Opiniones/>
           <Footer/>
         </section>
     )
