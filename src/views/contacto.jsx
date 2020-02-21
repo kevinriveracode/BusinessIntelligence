@@ -7,6 +7,29 @@ import TitleSection from '../components/title-section';
 import ServiceTech from '../components/ServiceTech';
 import Opiniones from '../components/opiniones';
 class Contacto extends Component{
+
+  constructor(props){
+    super(props)
+    this.state = {
+      name:'',
+      lastname:'',
+      email:'',
+      message:''
+    }
+  }
+
+  sendDataForm = (ev) => {
+    ev.preventDefault();
+    let emited = `Tienes un mensaje de:  ${this.state.name + ' ' +this.state.lastname} `
+    let message = this.state.message;
+    console.log(emited , message);
+  };
+
+  bindName = (ev) => {this.setState({name:ev.target.value})};
+  bindLastname = (ev) => {this.setState({lastname:ev.target.value})};
+  bindEmail = (ev) => {this.setState({email:ev.target.value})};
+  bindMessage = (ev) => {this.setState({message:ev.target.value})};
+
   render(){
     return(
         <section>
@@ -17,19 +40,19 @@ class Contacto extends Component{
               <form className="u-flex-col w-75 formulario-contacto" action="">
                 <div className="u-flex jc-between">
                   <label htmlFor="">
-                    <input placeholder="Nombre" className="input-default" type="text" required/>
+                    <input placeholder="Nombre" onChange={this.bindName} value={this.state.name} className="input-default" type="text" required/>
                   </label>
                   <label htmlFor="">
-                    <input placeholder="Apellido" className="input-default" type="text" required/>
+                    <input placeholder="Apellido" onChange={this.bindLastname} value={this.state.lastname} className="input-default" type="text" required/>
                   </label>
                 </div>
                 <div className="u-flex w-100">
-                  <input placeholder="Email" className="w-98 input-default" type="email" required/>
+                  <input placeholder="Email" onChange={this.bindEmail} value={this.state.email} className="w-98 input-default" type="email" required/>
                 </div>
                   <p className="mgh-1 explain-txt">Explicanos tu problema</p>
-                  <textarea  className="text-area input-default w-98 h-contact" name="" id="" cols="30" rows="10"></textarea>
+                  <textarea value={this.state.message} onChange={this.bindMessage}  className="text-area input-default w-98 h-contact" name="" id="" cols="30" rows="10"></textarea>
                 <div>
-                  <button className="contact-button button-header">Enviar</button>
+                  <button onClick={this.sendDataForm} className="contact-button button-header">Enviar</button>
                 </div>
               </form>
             </div>
