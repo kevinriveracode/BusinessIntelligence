@@ -16,7 +16,12 @@ $size-title: '1.5rem';
 .w-30{
   width: 30vw;
 }
-
+.w-98{
+  width: 96%;
+}
+.h-contact{
+  height: 8vh;
+}
 .jc-between{
   justify-content: space-between;
 }
@@ -57,7 +62,7 @@ $size-title: '1.5rem';
 .input-default{
     padding: .5rem;
     border: 1px solid #e6e6e6;
-    margin: .5em .0em;
+    margin: 1vh .0em !important;
     font-size: 14px;
     height: 20px;
     padding: 7px 11px;
@@ -140,6 +145,7 @@ $size-title: '1.5rem';
     min-height: 0;
     width: 45%;
 }
+
 .formulario-contacto{
   padding: 48px 40px 36px;
   -webkit-box-flex: 1;
@@ -148,6 +154,20 @@ $size-title: '1.5rem';
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
+  height: 60vh;
+}
+.text-area{
+  height: 12vh;
+}
+.explain-txt{
+  font-weight: lighter;
+  color: #3B3B3B;
+}
+.contact-button{
+  margin-top: 7px;
+}
+.bg-grey{
+  background-color: #e4e4e4;
 }
 .button-header{
   background: #1479fb;
@@ -177,6 +197,10 @@ $size-title: '1.5rem';
     margin: auto;
     background: none !important;
 }
+.contact-position{
+  position: relative;
+  top: -50px;
+}
 .btn-pack{
   background: #1479fb;
     border: 1px solid #1479fb;
@@ -195,7 +219,13 @@ $size-title: '1.5rem';
     text-shadow: none;
     font-weight: 800;
 }
-
+//mg
+.mgh-0{
+  margin: 0vh 0px;
+}
+.mgh-1{
+  margin: 1rem 0px;
+}
 //size
 
 .u-w100{

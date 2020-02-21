@@ -35,7 +35,7 @@ class Header extends Component {
  
   }
   goToHome = () => {
-    window.location = "http://localhost:3000"
+    window.location = "http://dev360.es/"
   }
   showMobileMenu = () => {
     $('.Menu-Mobile').show();
@@ -48,10 +48,10 @@ class Header extends Component {
            <div className="container-logo">
              <p className="reference-logo u-flex" onClick={this.goToHome}>
                <div>
-                 <img className={"logo"} src="/logo.svg" alt=""/>
+                 <img className={"logo"} src="/logo.png" alt=""/>
                </div>
                <div>
-                 <h1 className="title">DEV<b>360</b></h1>
+                 <h1 className="title"> Dev360</h1>
                  <h3 className="subtitle">Agencia de soluciones tecnologicas</h3>
                </div>
              </p>
@@ -59,10 +59,9 @@ class Header extends Component {
            <div className="primary-menu">
              <nav>
                <li><Link to="/">Inicio</Link></li>
-               {/*<li ><a onClick={this.handlerMenu}>Servicios</a></li>*/}
                <li><Link to={"/service/web"}>Diseño web</Link></li>
                <li><Link to={'/service/ecommerce'}>E-commerce</Link></li>
-               <li><Link to={'/service/seo'}>SEO</Link></li>
+               {/*<li><Link to={'/service/seo'}>SEO</Link></li>*/}
                <li><Link to="/contacto">Contacto</Link></li>
              </nav>
            </div>
