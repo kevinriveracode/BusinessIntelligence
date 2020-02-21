@@ -6,6 +6,8 @@ import ButtonBI from '../components/button';
 import TitleSection from '../components/title-section';
 import ServiceTech from '../components/ServiceTech';
 import Opiniones from '../components/opiniones';
+import axios from 'axios';
+
 class Contacto extends Component{
 
   constructor(props){
@@ -18,11 +20,17 @@ class Contacto extends Component{
     }
   }
 
-  sendDataForm = (ev) => {
+  sendDataForm = async(ev) => {
     ev.preventDefault();
     let emited = `Tienes un mensaje de:  ${this.state.name + ' ' +this.state.lastname} `
     let message = this.state.message;
-    console.log(emited , message);
+    let data = await axios.post('https://dev360-back.herokuapp.com/' , {
+      name:this.state.name,
+      lastname:this.state.lastname,
+      email: this.state.email,
+      message: this.state.message
+    })
+    console.log(data);
   };
 
   bindName = (ev) => {this.setState({name:ev.target.value})};
